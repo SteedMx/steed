@@ -10,5 +10,10 @@
     <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
   </video>
   <div id="consultancy-video-color"></div>
-  <h2 id="consultancy">Consultoría</h1>
+  <h2 id="consultancy">Consultoría</h2>
+</section>
+<section id="solutions-section">
+  <div id="solutions-iphone"></div>
+  <h2 id="solutions">Soluciones</h2>
+  <h3 id="solutions-feature">Shared-economy Engine</h3>
 </section>

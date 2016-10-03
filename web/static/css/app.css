@@ -102,3 +102,69 @@ section {
   letter-spacing:0.1em;
   font-size:2em;
 }
+
+/*
+* SOLUTIONS
+*/
+
+#solutions-section {
+  background-color:#c4c4c4;
+  background-image:url("/images/solutions-asset.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  box-sizing:border-box;
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  overflow:hidden;
+  height:100vh;
+  position:relative;
+}
+
+#solutions-asset {
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+#solutions-iphone {
+  background-image:url("/images/solutions-iphone.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+
+  width:80vw;
+  height:80vh;
+  bottom:11em;
+  right:0;
+}
+
+#solutions {
+  position:absolute;
+  bottom:7em;
+  left:2em;
+  color:rgb(230,48,46);
+  font-family:Avenir,sans-serif;
+  text-transform:lowercase;
+  letter-spacing:0.1em;
+  font-size:1.5em;
+}
+
+#solutions-feature {
+  position:absolute;
+  bottom:2em;
+  left:1.5em;
+  color:#fff;
+  font-family:Avenir,sans-serif;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  font-size:2em;
+  max-width:15em;
+}
