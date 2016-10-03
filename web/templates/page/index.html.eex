@@ -17,3 +17,8 @@
   <h2 id="solutions">Soluciones</h2>
   <h3 id="solutions-feature">Shared-economy Engine</h3>
 </section>
+<section id="events-section">
+  <div id="events-triangles"></div>
+  <h2 id="events">Eventos</h2>
+  <h3 id="events-feature">Nuevo Ingenio Mexicano</h3>
+</section>

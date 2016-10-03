@@ -168,3 +168,26 @@ section {
   font-size:2em;
   max-width:15em;
 }
+
+/*
+* EVENTS
+*/
+
+#events-section {
+  background-color:#c4c4c4;
+  background-image:url("/images/events-cover.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+
+  box-sizing:border-box;
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  overflow:hidden;
+  height:100vh;
+  position:relative;
+}
