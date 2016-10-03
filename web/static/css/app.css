@@ -9,7 +9,7 @@ body, html {
 
 section {
   height:100vh;
-  weight:100vw;
+  width:100vw;
 }
 
 /*
@@ -57,4 +57,48 @@ section {
   letter-spacing:0.02em;
   margin:-4em 0 0 0;
   max-width:30em;
+}
+
+/*
+* CONSULTANCY
+*/
+
+#consultancy-section {
+  box-sizing:border-box;
+
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  overflow:hidden;
+  height:100vh;
+
+  position:relative;
+}
+
+#consultancy-video {
+  width:100vw;
+}
+
+#consultancy-video-color {
+  background-color:rgba(47,9,9, 0.5);
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+}
+
+#consultancy {
+  position:absolute;
+  bottom:1em;
+  left:1.5em;
+  color:white;
+  font-family:Avenir,sans-serif;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  font-size:3em;
 }

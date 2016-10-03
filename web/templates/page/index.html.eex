@@ -5,3 +5,10 @@
     alcanzarás tus metas de crecimiento.</p>
   </div>
 </section>
+<section id="consultancy-section">
+  <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/open-plan-working.jpg">
+    <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
+  </video>
+  <div id="consultancy-video-color"></div>
+  <h2 id="consultancy">Consultoría</h1>
+</section>
