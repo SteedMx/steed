@@ -75,7 +75,7 @@ section {
 
   overflow:hidden;
   height:100vh;
-
+  background-color:#101010;
   position:relative;
 }
 
@@ -100,5 +100,5 @@ section {
   font-family:Avenir,sans-serif;
   text-transform:uppercase;
   letter-spacing:0.1em;
-  font-size:3em;
+  font-size:2em;
 }
