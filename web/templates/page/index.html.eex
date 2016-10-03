@@ -1,7 +1,7 @@
-<section>
+<section id="splash-section">
   <div id="splash">
-    <h1>steed.</h1>
-    <p>Bienvenido al Futuro. Con nuestro servicio de consultoría
+    <h1 id="steed">steed.</h1>
+    <p id="welcome">Bienvenido al Futuro. Con nuestro servicio de consultoría
     alcanzarás tus metas de crecimiento.</p>
   </div>
 </section>

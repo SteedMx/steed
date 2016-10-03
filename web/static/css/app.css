@@ -1,1 +1,60 @@
-/* This file is for your main application css. */
+* {
+  text-rendering:optimizeLegibility;
+}
+
+body, html {
+  margin:0;
+  padding:0;
+}
+
+section {
+  height:100vh;
+  weight:100vw;
+}
+
+/*
+* SPLASH
+*/
+
+#splash-section {
+  background:-webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
+  box-sizing:border-box;
+
+  display:flex;
+  align-content:center;
+  align-items:center;
+}
+
+#splash {
+  height:12vh;
+  width:55vw;
+  padding:40vh 20vw 40vh 20vw;
+  margin:0 auto;
+  text-align:center;
+
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  border:0.2em solid white;
+}
+
+#steed {
+  color:#fff;
+  font-family:Avenir,sans-serif;
+  font-weight:400;
+  font-size:5em;
+}
+
+#welcome {
+  color:#fff;
+  font-family:Avenir,sans-serif;
+  font-weight:100;
+  font-size:0.9em;
+  letter-spacing:0.02em;
+  margin:-4em 0 0 0;
+  max-width:30em;
+}
