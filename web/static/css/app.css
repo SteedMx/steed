@@ -276,3 +276,46 @@ summary {
 a {
   text-decoration:none;
 }
+
+/*
+* CONSULTANCY - WHAT WE DO
+*/
+
+#what-we-do-section {
+  background:-webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
+  box-sizing:border-box;
+
+  display:flex;
+  align-content:center;
+  align-items:center;
+
+  font-family:Avenir, sans-serif;
+  color:#ff9999;
+}
+
+#what-we-do-container {
+  width:40vw;
+  padding:0 0 0 10vw;
+}
+
+#what-we-do {
+  width:20vw;
+  text-transform:lowercase;
+  font-weight:100;
+  color:#fff;
+}
+
+#what-we-do-underline {
+  border-bottom: 2px solid #fff;
+  width:5vw;
+}
+
+#what-we-do-text {
+  width:40vw;
+  font-size:0.8em;
+}
+
+.what-we-do-relevant {
+  font-weight:800;
+  color:#fff;
+}

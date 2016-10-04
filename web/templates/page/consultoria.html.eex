@@ -1,0 +1,32 @@
+<section id="consultancy-section">
+  <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/open-plan-working.jpg">
+    <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
+  </video>
+  <div id="consultancy-video-color"></div>
+  <a href="/consultoria">
+    <h2 id="consultancy">Consultoría</h2>
+  </a>
+</section>
+<section id="what-we-do-section">
+  <div id="what-we-do-container">
+    <h3 id="what-we-do">Lo que hacemos.</h3>
+    <div id="what-we-do-underline"></div>
+  </div>
+  <div id="what-we-do-text">
+    <p>
+      Nuestro servicio de <span class="what-we-do-relevant">consultoría en innovación</span> se especializa en la
+      detección de áreas de mejoría en los procesos de nuestros clientes,
+      además de <span class="what-we-do-relevant">desarrollar nuevos productos y servicios</span> para ayudarles
+      a diferenciarse y crecer.
+    </p>
+    <p>
+      <span class="what-we-do-relevant">Nos especializamos en implementar herramientas y mecanismos usados
+      en empresas que pertenecen al Fortune 500.</span> Nuestros procesos han sido
+      implementados exitosamente por consultores de Steed en proyectos
+      desarrollados para la SCT, DeveloPipeline, RobotiX, ComproPago,
+      Tecnológico de Monterrey, INEA entre otros. En el proceso, hemos generando
+      un <span class="what-we-do-relevant">dominio de experiencia en las industrias financiera,
+      educativa y energética.</span>
+    </p>
+  </div>
+</section>
