@@ -449,3 +449,32 @@ a {
   max-width: 12vw;
   min-width: 30px;
 }
+
+/*
+* SHARED-ECONOMY ENGINE - DELUXE
+*/
+
+#deluxe-section {
+  background-image:url("/images/deluxe-cover.png");
+  box-sizing:border-box;
+
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-flow:column;
+  align-content:center;
+  align-items:center;
+
+  font-family:Avenir, sans-serif;
+  color:#ff9999;
+}
+
+#deluxe-logo {
+  max-width: 30vw;
+  min-width: 180px;
+  margin: 25vh 0 10vh 0;
+}
+
+#deluxe-icon {
+  width:10vw;
+}
