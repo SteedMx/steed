@@ -191,3 +191,38 @@ section {
   height:100vh;
   position:relative;
 }
+
+#events-triangles {
+  background-image:url("/images/events-triangles.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:absolute;
+
+  width:80vw;
+  height:100vh;
+  bottom:0;
+  right:0;
+}
+
+#events {
+  position:absolute;
+  bottom:7em;
+  left:2em;
+  color:rgb(230,48,46);
+  font-family:Avenir,sans-serif;
+  text-transform:lowercase;
+  letter-spacing:0.1em;
+  font-size:1.5em;
+}
+
+#events-feature {
+  position:absolute;
+  bottom:2em;
+  left:1.5em;
+  color:#fff;
+  font-family:Avenir,sans-serif;
+  text-transform:uppercase;
+  letter-spacing:0.1em;
+  font-size:2em;
+  max-width:15em;
+}
