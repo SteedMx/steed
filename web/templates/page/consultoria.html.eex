@@ -3,9 +3,7 @@
     <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
   </video>
   <div id="consultancy-video-color"></div>
-  <a href="/consultoria">
-    <h2 id="consultancy">Consultoría</h2>
-  </a>
+  <h2 id="consultancy">Consultoría</h2>
 </section>
 <section id="what-we-do-section">
   <div id="what-we-do-container">
@@ -28,5 +26,51 @@
       un <span class="what-we-do-relevant">dominio de experiencia en las industrias financiera,
       educativa y energética.</span>
     </p>
+  </div>
+</section>
+<section id="our-process-section">
+  <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/sketching-mock-up.jpg">
+    <source src="https://d3k5xyayaartr5.cloudfront.net/sketching-mock-up/sketching-mock-up.webm">
+  </video>
+  <div id="our-process-video-color"></div>
+  <h2 id="our-process">Nuestro proceso.</h2>
+  <div id="our-process-cards-container">
+    <div class="our-process-card">
+      <h4 class="our-process-card-title">Empatía e Investigación</h4>
+      <p>
+        Siempre partimos de un proceso de investigación previa para entender la
+        naturaleza del reto. Ya sea mejorar un proceso empresarial, analizar
+        una oportunidad en el mercado o desarrollar un proyecto de software,
+        buscamos entender el panorama desde el punto de vista empático
+        (utilizando técnicas de Design Thinking por ejemplo) y el analítico
+        (a través de nuestras herramientas de procesamiento de datos).
+        De esta manera podemos prever el efecto que tendrá un desarrollo en términos
+        financieros y de experiencia de usuario.
+      </p>
+      <p>
+        Logramos esto a través del conocimiento adquirido por nuestros
+        consultores y nuestra red de expertos.
+      </p>
+    </div>
+    <div class="our-process-card">
+      <h4 class="our-process-card-title">Experimentación</h4>
+      <p>
+        En base a los resultados de la investigación cualitativa y cuantitativa
+        se proponen potenciales soluciones. Desarrollamos pilotos para probar
+        diversas hipótesis e iteramos para lograr encontrar una propuesta ideal.
+      </p>
+      <p>
+        Utilizamos metodologías de desarrollo ágil para producir resultados
+        desde las primeras fases del proyecto.
+      </p>
+    </div>
+    <div class="our-process-card">
+      <h4 class="our-process-card-title">Implementación</h4>
+      <p>
+        Una vez que encontramos una solución óptima, se busca implementar en
+        una mayor escala de manera controlada para lograr que genere alto valor
+        para la organización.
+      </p>
+    </div>
   </div>
 </section>
