@@ -392,3 +392,60 @@ a {
   font-family:Avenir, sans-serif;
   text-align:justify;
 }
+
+/*
+* CONSULTANCY - PENDING SECTION
+*/
+
+/*
+* CONSULTANCY - CLIENTS
+*/
+
+#clients-section {
+  background-color:rgb(192,189,189);
+  box-sizing:border-box;
+
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  align-content:center;
+
+  font-family:Avenir, sans-serif;
+  color:#ff9999;
+}
+
+#clients-container {
+  width:40vw;
+  padding:0 0 0 10vw;
+  top:20;
+}
+
+#clients {
+  width:20vw;
+  text-transform:lowercase;
+  font-weight:100;
+  font-size:1.5em;
+  color:#fff;
+}
+
+#clients-underline {
+  border-bottom: 2px solid rgb(230,48,46);
+  width:5vw;
+}
+
+#clients-logos-container {
+  padding:0 0 0 10vw;
+  margin: 5vh 0 0 0;
+}
+
+.clients-logo {
+  max-width: 20vw;
+  min-width: 65px;
+  margin:1em;
+}
+
+#mattel {
+  max-width: 12vw;
+  min-width: 30px;
+}
