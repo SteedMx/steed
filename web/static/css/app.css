@@ -75,7 +75,9 @@ section {
 
   overflow:hidden;
   height:100vh;
-  background-color:#101010;
+  background-image:url("/images/consultancy-cover.png");
+  background-repeat:no-repeat;
+  background-position:cover;
   position:relative;
 }
 
