@@ -21,6 +21,27 @@
         <%= render @view_module, @view_template, assigns %>
       </main>
 
+      <footer>
+        <div class="footer-section">
+          <summary>Contáctanos</summary>
+          <p class="footer-info">info@steed.mx</p>
+        </div>
+        <div class="footer-section">
+          <summary>Visítanos</summary>
+          <p class="footer-info">Tabasco 242,</p>
+          <p class="footer-info">Roma Norte</p>
+          <p class="footer-info">55 2259 6898</p>
+        </div>
+        <div class="footer-section-icons">
+          <a href="https://www.facebook.com/SteedMx/">
+            <img class="footer-icon" src="/images/footer-fb.png"/>
+          </a>
+          <img class="footer-icon" src="/images/footer-skype.png"/>
+          <img class="footer-icon" src="/images/footer-twitter.png"/>
+          <img class="footer-icon" src="/images/footer-insta.png"/>
+        <div>
+      </footer>
+
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
   </body>
