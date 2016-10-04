@@ -1,0 +1,28 @@
+<section id="solutions-section">
+  <div id="solutions-iphone"></div>
+  <h2 id="solutions">Soluciones</h2>
+  <h3 id="solutions-feature">Shared-economy Engine</h3>
+</section>
+<section id="what-we-do-section">
+  <div id="what-we-do-container">
+    <h3 id="what-we-do">shared-economy engine.</h3>
+    <div id="what-we-do-underline"></div>
+  </div>
+  <div id="what-we-do-text">
+    <p>
+      Nuestro servicio de <span class="what-we-do-relevant">consultoría en innovación</span> se especializa en la
+      detección de áreas de mejoría en los procesos de nuestros clientes,
+      además de <span class="what-we-do-relevant">desarrollar nuevos productos y servicios</span> para ayudarles
+      a diferenciarse y crecer.
+    </p>
+    <p>
+      <span class="what-we-do-relevant">Nos especializamos en implementar herramientas y mecanismos usados
+      en empresas que pertenecen al Fortune 500.</span> Nuestros procesos han sido
+      implementados exitosamente por consultores de Steed en proyectos
+      desarrollados para la SCT, DeveloPipeline, RobotiX, ComproPago,
+      Tecnológico de Monterrey, INEA entre otros. En el proceso, hemos generando
+      un <span class="what-we-do-relevant">dominio de experiencia en las industrias financiera,
+      educativa y energética.</span>
+    </p>
+  </div>
+</section>
