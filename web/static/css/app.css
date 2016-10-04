@@ -226,3 +226,51 @@ section {
   font-size:2em;
   max-width:15em;
 }
+
+/*
+* FOOTER
+*/
+
+footer {
+  background:-webkit-linear-gradient(right, rgb(230,48,46), rgb(166,48,44));
+  box-sizing:border-box;
+
+  display:flex;
+  align-content:center;
+  align-items:center;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+}
+
+.footer-section {
+  margin:5vh 10vw 5vh 10vw;
+  width:20vw;
+  font-family:Avenir, sans-serif;
+  font-size:0.8em;
+}
+
+.footer-section-icons {
+  max-width:10vw;
+  min-width:80px;
+}
+
+summary {
+  color:black;
+}
+
+.footer-info {
+  color:white;
+  letter-spacing:0.05em;
+  font-weight:100;
+  margin:0;
+}
+
+.footer-icon {
+  max-width:2.5vw;
+  min-width:25px;
+  margin:0 0.5vw 0 0.5vw;
+}
+
+a {
+  text-decoration:none;
+}
