@@ -15,7 +15,6 @@ section {
 /*
 * SPLASH
 */
-
 #splash-section {
   background:-webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
   box-sizing:border-box;
@@ -470,11 +469,26 @@ a {
 }
 
 #deluxe-logo {
-  max-width: 30vw;
-  min-width: 180px;
-  margin: 25vh 0 10vh 0;
+  max-width:30vw;
+  min-width:180px;
+  margin:25vh 0 10vh 0;
 }
 
 #deluxe-icon {
-  width:10vw;
+  max-width:10vw;
+  min-width:70px;
+}
+
+#deluxe-text {
+  margin:10vh;
+  font-size:1.2em;
+  color:white;
+}
+
+#deluxe-app {
+  position:static;
+  margin:0;
+  max-width:55vw;
+  min-width:350px;
+  margin:-38vw 0 0 -100vw;
 }
