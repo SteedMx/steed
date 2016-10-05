@@ -1,0 +1,21 @@
+<section id="events-section">
+  <div id="events-triangles"></div>
+  <h2 id="events">Eventos</h2>
+  <h3 id="events-feature">Nuevo Ingenio Mexicano</h3>
+</section>
+<section id="nim-section">
+  <img id="nim-imtt" src="<%= static_path(@conn, "/images/nim-imtt.png") %>" alt="" />
+  <div id="nim-text">
+    <p>
+      <span class="nim-text-feature">Nuevo Ingenio Mexicano</span> es una
+      iniciativa creada para el IMTT para
+      <span class="nim-text-feature">cerrar las brechas disciplinarias</span>,
+      generando espacios de
+      <span class="nim-text-feature">colaboración entre diseñadores, tecnólogos y empresarios.</span>
+    </p>
+    <p>
+      La meta es <span class="nim-text-feature">celebrar la creación mexicana emergente</span>
+      proponiendo una identidad solida que nos diferencie como mexicanos.
+    </p>
+  </div>
+</section>
