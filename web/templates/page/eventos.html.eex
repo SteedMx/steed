@@ -19,3 +19,38 @@
     </p>
   </div>
 </section>
+<section id="nim-events-section">
+  <div class="nim-banner">
+    <p>Eventos del NIM</p>
+  </div>
+  <div id="nim-events-container">
+    <div class="nim-event">
+      <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-hackaton.png") %>" alt="" />
+      <p class="nim-event-text">
+        Artistas visuales, coders experimentales y makers se juntan por 48 horas
+        para generar propuestas interactivas audiovisuales.
+      </p>
+    </div>
+    <div class="nim-event">
+      <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-creaton.png") %>" alt="" />
+      <p class="nim-event-text">
+        Coders y Web Developers de Front, Back y Full Stack compiten por
+        48 horas en un reto por crear soluciones para la CDMX.
+      </p>
+    </div>
+    <div class="nim-event">
+      <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-taller.png") %>" alt="" />
+      <p class="nim-event-text">
+        5 días de Design Thinking, Validación de Ideas, Prototipado y
+        Venture Development con expertos.
+      </p>
+    </div>
+    <div class="nim-event">
+      <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-makeaton.png") %>" alt="" />
+      <p class="nim-event-text">
+        Makers, diseñadores y wearable hackers se unen para crear soluciones
+        en hardware para la CDMX.
+      </p>
+    </div>
+  </div>
+</section>
