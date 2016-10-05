@@ -16,11 +16,15 @@
 </section>
 <section id="solutions-section">
   <div id="solutions-iphone"></div>
-  <h2 id="solutions">Soluciones</h2>
-  <h3 id="solutions-feature">Shared-economy Engine</h3>
+  <a href="/soluciones">
+    <h2 id="solutions">Soluciones</h2>
+    <h3 id="solutions-feature">Shared-economy Engine</h3>
+  </a>
 </section>
 <section id="events-section">
   <div id="events-triangles"></div>
-  <h2 id="events">Eventos</h2>
-  <h3 id="events-feature">Nuevo Ingenio Mexicano</h3>
+  <a href="/eventos">
+    <h2 id="events">Eventos</h2>
+    <h3 id="events-feature">Nuevo Ingenio Mexicano</h3>
+  </a>
 </section>
