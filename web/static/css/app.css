@@ -627,3 +627,57 @@ a {
   width:18vw;
   margin:-20vh 0 0 0;
 }
+
+/*
+* EVENTS - NIM MEETUPS
+*/
+
+#nim-meetups-intro {
+  font-family:Avenir, sans-serif;
+  font-size:0.8em;
+  width:80vw;
+  text-align:justify;
+  margin:2vh auto -3vh auto;
+}
+
+.nim-meetup-container {
+  box-sizing:border-box;
+
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:row;
+  flex-flow:row;
+  align-content:center;
+  align-items:center;
+  justify-content:center;
+
+  margin:2vh 2vw 0 2vw;
+}
+
+#nim-diseneria-logo {
+  background-image:url("/images/nim-diseneria.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+
+  width:18vw;
+  height:30vh;
+  margin:5vh 2vw 0 2vw;
+}
+
+#nim-futurologi-logo {
+  background-image:url("/images/nim-futurologi.png");
+  background-repeat:no-repeat;
+  background-size:contain;
+
+  width:10vw;
+  height:30vh;
+  margin:5vh 2vw 0 2vw;
+  padding:1em;
+}
+
+.nim-meetup-text {
+  width:30vw;
+  margin:0 5vw 0 5vw;
+  font-family:Avenir,sans-serif;
+  font-size:0.7em;
+}

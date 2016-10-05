@@ -54,3 +54,29 @@
     </div>
   </div>
 </section>
+<section id="nim-events-section">
+  <div class="nim-banner">
+    <p>Meetups del NIM</p>
+  </div>
+  <p id="nim-meetups-intro">
+    Nuevo Ingenio Mexicano es una iniciativa creada para el IMTT para cerrar
+    las brechas disiplinarias, generando espacios de colaboración entre
+    diseñadores, tecnólogos y empresarios.
+  </p>
+  <div class="nim-meetup-container">
+    <div id="nim-diseneria-logo"></div>
+    <p class="nim-meetup-text">
+      Nuevo Ingenio Mexicano es una iniciativa creada para el IMTT para cerrar
+      las brechas disiplinarias, generando espacios de colaboración entre
+      diseñadores, tecnólogos y empresarios.
+    </p>
+  </div>
+  <div class="nim-meetup-container">
+    <p class="nim-meetup-text">
+      Nuevo Ingenio Mexicano es una iniciativa creada para el IMTT para cerrar
+      las brechas disiplinarias, generando espacios de colaboración entre
+      diseñadores, tecnólogos y empresarios.
+    </p>
+    <div id="nim-futurologi-logo"></div>
+  </div>
+</section>
