@@ -32,3 +32,10 @@
   <p id="deluxe-text">Beauty on-demand</p>
   <img id="deluxe-app"src="<%= static_path(@conn, "/images/deluxe-app.png") %>" alt="" />
 </section>
+<section id="fondapp-section">
+  <div id="fondapp-container">
+    <img id="fondapp-icon" src="<%= static_path(@conn, "/images/fondapp-icon.png") %>" alt="" />
+    <p id="fondapp">Fondapp</p>
+  </div>
+  <img id="fondapp-app"src="<%= static_path(@conn, "/images/fondapp-app.png") %>" alt="" />
+</section>

@@ -76,7 +76,7 @@ section {
   height:100vh;
   background-image:url("/images/consultancy-cover.png");
   background-repeat:no-repeat;
-  background-position:cover;
+  background-size:cover;
   position:relative;
 }
 
@@ -337,7 +337,7 @@ a {
   height:100vh;
   background-image:url("/images/our-process-cover.png");
   background-repeat:no-repeat;
-  background-position:cover;
+  background-size:cover;
   position:relative;
 }
 
@@ -455,6 +455,7 @@ a {
 
 #deluxe-section {
   background-image:url("/images/deluxe-cover.png");
+  background-size:cover;
   box-sizing:border-box;
 
   display:flex;
@@ -490,5 +491,50 @@ a {
   margin:0;
   max-width:55vw;
   min-width:350px;
-  margin:-38vw 0 0 -100vw;
+  margin:-20vw 0 0 -100vw;
+}
+
+/*
+* SHARED-ECONOMY ENGINE - FONDAPP
+*/
+
+#fondapp-section {
+  background-image:url("/images/fondapp-cover.png");
+  background-size:cover;
+  box-sizing:border-box;
+
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:row;
+  flex-flow:row;
+  align-content:center;
+  align-items:center;
+
+  font-family:Avenir, sans-serif;
+  color:#ff9999;
+}
+
+#fondapp-container {
+  width:80vw;
+  padding:20vw;
+}
+
+#fondapp-icon {
+  max-width:10vw;
+  min-width:70px;
+}
+
+#fondapp {
+  font-family:PragmataPro, sans-serif;
+  text-transform:uppercase;
+  width:10vw;
+  text-align:center;
+  font-size:1.2em;
+  letter-spacing:0.05em;
+}
+
+#fondapp-app {
+  position:static;
+  margin:40vh 35vw 0 0;
+  max-height:60vh;
 }
