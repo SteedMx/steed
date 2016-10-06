@@ -15,6 +15,7 @@
   <body>
     <div class="container">
       <main role="main">
+        <button id="menu-trigger" class="animated pulse"></button>
         <button id="be-quoted" class="animated pulse">Cotiza</button>
         <%= render @view_module, @view_template, assigns %>
       </main>
