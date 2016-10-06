@@ -1,7 +1,7 @@
 <section id="splash-section">
   <button type="button" name="be-quoted" id="be-quoted">Cotiza</button>
   <div id="splash">
-    <h1 id="steed">steed.</h1>
+    <h1 id="steed" class="animated fadeInLeft">steed.</h1>
     <p id="welcome">Bienvenido al Futuro. Con nuestro servicio de consultoría
     alcanzarás tus metas de crecimiento.</p>
   </div>
@@ -12,20 +12,20 @@
   </video>
   <div id="consultancy-video-color"></div>
   <a href="/consultoria">
-    <h2 id="consultancy">Consultoría</h2>
+    <h2 id="consultancy" class="animated fadeInLeft">Consultoría</h2>
   </a>
 </section>
 <section id="solutions-section">
-  <div id="solutions-iphone"></div>
+  <div id="solutions-iphone" class="animated fadeInRight"></div>
   <a href="/soluciones">
-    <h2 id="solutions">Soluciones</h2>
-    <h3 id="solutions-feature">Shared-economy Engine</h3>
+    <h2 id="solutions" class="animated pulse">Soluciones</h2>
+    <h3 id="solutions-feature" class="animated fadeInLeft">Shared-economy Engine</h3>
   </a>
 </section>
 <section id="events-section">
-  <div id="events-triangles"></div>
+  <div id="events-triangles" class="animated fadeInRight"></div>
   <a href="/eventos">
-    <h2 id="events">Eventos</h2>
-    <h3 id="events-feature">Nuevo Ingenio Mexicano</h3>
+    <h2 id="events" class="animated pulse">Eventos</h2>
+    <h3 id="events-feature" class="animated fadeInLeft">Nuevo Ingenio Mexicano</h3>
   </a>
 </section>

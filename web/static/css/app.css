@@ -21,6 +21,8 @@ section {
 }
 
 #splash-section {
+  animation:redLightChange 5s 2s infinite ease-in-out normal;
+
   background:-webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
   box-sizing:border-box;
 
@@ -347,6 +349,8 @@ a {
 }
 
 #our-process-video-color {
+
+  animation: fade 4s 1s infinite linear alternate;
   background-image:url("/images/our-process-video-cover.png");
   background-color:#000;
   background-blend-mode:multiply;
@@ -685,4 +689,11 @@ a {
   margin:0 5vw 0 5vw;
   font-family:Avenir,sans-serif;
   font-size:0.7em;
+}
+
+/*
+* ANIMATIONS - SPLASH
+*/
+
+@keyframes redLightChange {
 }
