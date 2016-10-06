@@ -3,14 +3,14 @@
     <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
   </video>
   <div id="consultancy-video-color"></div>
-  <h2 id="consultancy">Consultoría</h2>
+  <h2 id="consultancy" class="animated fadeInLeft">Consultoría</h2>
 </section>
 <section id="what-we-do-section">
-  <div id="what-we-do-container">
+  <div id="what-we-do-container" class="animated fadeInLeft">
     <h3 id="what-we-do">Lo que hacemos.</h3>
     <div id="what-we-do-underline"></div>
   </div>
-  <div id="what-we-do-text">
+  <div id="what-we-do-text" class="animated fadeInRight">
     <p>
       Nuestro servicio de <span class="what-we-do-relevant">consultoría en innovación</span> se especializa en la
       detección de áreas de mejoría en los procesos de nuestros clientes,
@@ -33,7 +33,7 @@
     <source src="https://d3k5xyayaartr5.cloudfront.net/sketching-mock-up/sketching-mock-up.webm">
   </video>
   <div id="our-process-video-color"></div>
-  <h2 id="our-process">Nuestro proceso.</h2>
+  <h2 id="our-process" class="animated pulse">Nuestro proceso.</h2>
   <div id="our-process-cards-container">
     <div class="our-process-card">
       <h4 class="our-process-card-title">Empatía e Investigación</h4>
@@ -79,7 +79,7 @@
 </section>
 <section id="clients-section">
   <div id="clients-container">
-    <h3 id="clients">Clientes.</h3>
+    <h3 id="clients" class="animated pulse">Clientes.</h3>
     <div id="clients-underline"></div>
   </div>
   <div id="clients-logos-container">

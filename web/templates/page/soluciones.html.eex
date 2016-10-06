@@ -1,14 +1,14 @@
 <section id="solutions-section">
-  <div id="solutions-iphone"></div>
-  <h2 id="solutions">Soluciones</h2>
-  <h3 id="solutions-feature">Shared-economy Engine</h3>
+  <div id="solutions-iphone" class="animated fadeInRight"></div>
+  <h2 id="solutions" class="animated pulse">Soluciones</h2>
+  <h3 id="solutions-feature" class="animated fadeInLeft">Shared-economy Engine</h3>
 </section>
 <section id="what-we-do-section">
-  <div id="what-we-do-container">
+  <div id="what-we-do-container" class="animated fadeInLeft">
     <h3 id="what-we-do">shared-economy engine.</h3>
     <div id="what-we-do-underline"></div>
   </div>
-  <div id="what-we-do-text">
+  <div id="what-we-do-text" class="animated fadeInRight">
     <p>
       Nuestro servicio de <span class="what-we-do-relevant">consultoría en innovación</span> se especializa en la
       detección de áreas de mejoría en los procesos de nuestros clientes,
@@ -27,15 +27,15 @@
   </div>
 </section>
 <section id="deluxe-section">
-  <img id="deluxe-logo" src="<%= static_path(@conn, "/images/deluxe-logo.png") %>" alt="DELUXE" />
-  <img id="deluxe-icon" src="<%= static_path(@conn, "/images/deluxe-icon.png") %>" alt="" />
-  <p id="deluxe-text">Beauty on-demand</p>
-  <img id="deluxe-app"src="<%= static_path(@conn, "/images/deluxe-app.png") %>" alt="" />
+  <img class="animated fadeInDown" id="deluxe-logo" src="<%= static_path(@conn, "/images/deluxe-logo.png") %>" alt="DELUXE" />
+  <img class="animated fadeInDown" id="deluxe-icon" src="<%= static_path(@conn, "/images/deluxe-icon.png") %>" alt="" />
+  <p class="animated fadeInUp" id="deluxe-text">Beauty on-demand</p>
+  <img class="animated fadeInLeft" id="deluxe-app"src="<%= static_path(@conn, "/images/deluxe-app.png") %>" alt="" />
 </section>
 <section id="fondapp-section">
-  <div id="fondapp-container">
+  <div id="fondapp-container" class="animated fadeInLeft">
     <img id="fondapp-icon" src="<%= static_path(@conn, "/images/fondapp-icon.png") %>" alt="" />
     <p id="fondapp">Fondapp</p>
   </div>
-  <img id="fondapp-app"src="<%= static_path(@conn, "/images/fondapp-app.png") %>" alt="" />
+  <img class="animated fadeInRight" id="fondapp-app"src="<%= static_path(@conn, "/images/fondapp-app.png") %>" alt="" />
 </section>

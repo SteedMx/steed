@@ -1,5 +1,4 @@
 <section id="splash-section">
-  <button id="be-quoted" class="animated pulse">Cotiza</button>
   <div id="splash">
     <h1 id="steed" class="animated fadeInLeft">steed.</h1>
     <p id="welcome">Bienvenido al Futuro. Con nuestro servicio de consultoría

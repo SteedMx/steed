@@ -1,11 +1,11 @@
 <section id="events-section">
-  <div id="events-triangles"></div>
-  <h2 id="events">Eventos</h2>
-  <h3 id="events-feature">Nuevo Ingenio Mexicano</h3>
+  <div id="events-triangles" class="animated fadeInRight"></div>
+  <h2 id="events" class="animated pulse">Eventos</h2>
+  <h3 id="events-feature" class="animated fadeInLeft">Nuevo Ingenio Mexicano</h3>
 </section>
 <section id="nim-section">
-  <img id="nim-imtt" src="<%= static_path(@conn, "/images/nim-imtt.png") %>" alt="" />
-  <div id="nim-text">
+  <img class="animated fadeInLeft" id="nim-imtt" src="<%= static_path(@conn, "/images/nim-imtt.png") %>" alt="" />
+  <div id="nim-text" class="animated fadeInRight">
     <p>
       <span class="nim-text-feature">Nuevo Ingenio Mexicano</span> es una
       iniciativa creada para el IMTT para
@@ -24,28 +24,28 @@
     <p>Eventos del NIM</p>
   </div>
   <div id="nim-events-container">
-    <div class="nim-event">
+    <div class="nim-event animated fadeInDown">
       <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-hackaton.png") %>" alt="" />
       <p class="nim-event-text">
         Artistas visuales, coders experimentales y makers se juntan por 48 horas
         para generar propuestas interactivas audiovisuales.
       </p>
     </div>
-    <div class="nim-event">
+    <div class="nim-event animated fadeInDown">
       <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-creaton.png") %>" alt="" />
       <p class="nim-event-text">
         Coders y Web Developers de Front, Back y Full Stack compiten por
         48 horas en un reto por crear soluciones para la CDMX.
       </p>
     </div>
-    <div class="nim-event">
+    <div class="nim-event animated fadeInDown">
       <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-taller.png") %>" alt="" />
       <p class="nim-event-text">
         5 días de Design Thinking, Validación de Ideas, Prototipado y
         Venture Development con expertos.
       </p>
     </div>
-    <div class="nim-event">
+    <div class="nim-event animated fadeInDown">
       <img class="nim-event-image" src="<%= static_path(@conn, "/images/nim-makeaton.png") %>" alt="" />
       <p class="nim-event-text">
         Makers, diseñadores y wearable hackers se unen para crear soluciones
@@ -63,7 +63,7 @@
     las brechas disiplinarias, generando espacios de colaboración entre
     diseñadores, tecnólogos y empresarios.
   </p>
-  <div class="nim-meetup-container">
+  <div class="nim-meetup-container animated fadeInLeft">
     <div id="nim-diseneria-logo"></div>
     <p class="nim-meetup-text">
       Nuevo Ingenio Mexicano es una iniciativa creada para el IMTT para cerrar
@@ -71,7 +71,7 @@
       diseñadores, tecnólogos y empresarios.
     </p>
   </div>
-  <div class="nim-meetup-container">
+  <div class="nim-meetup-container animated fadeInRight">
     <p class="nim-meetup-text">
       Nuevo Ingenio Mexicano es una iniciativa creada para el IMTT para cerrar
       las brechas disiplinarias, generando espacios de colaboración entre
