@@ -16,19 +16,33 @@ section {
 * SPLASH
 */
 
-#be-quoted {
-  background-color:rgb(230,48,46);
-}
-
 #splash-section {
-  animation:redLightChange 5s 2s infinite ease-in-out normal;
-
   background:-webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
   box-sizing:border-box;
 
   display:flex;
   align-content:center;
   align-items:center;
+}
+
+#be-quoted {
+  position:fixed;
+  z-index:666;
+  right:10vw;
+  top:10vh;
+
+  background-color:rgb(230,48,46);
+  color: white;
+  text-transform: lowercase;
+  font-family: Avenir,sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.18em;
+  padding: 0 1vw;
+
+  box-shadow:0 1px 7px #3c1010;
 }
 
 #splash {
@@ -689,11 +703,4 @@ a {
   margin:0 5vw 0 5vw;
   font-family:Avenir,sans-serif;
   font-size:0.7em;
-}
-
-/*
-* ANIMATIONS - SPLASH
-*/
-
-@keyframes redLightChange {
 }
