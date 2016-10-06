@@ -15,6 +15,11 @@ section {
 /*
 * SPLASH
 */
+
+#be-quoted {
+  background-color:rgb(230,48,46);
+}
+
 #splash-section {
   background:-webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
   box-sizing:border-box;

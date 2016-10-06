@@ -1,4 +1,5 @@
 <section id="splash-section">
+  <button type="button" name="be-quoted" id="be-quoted">Cotiza</button>
   <div id="splash">
     <h1 id="steed">steed.</h1>
     <p id="welcome">Bienvenido al Futuro. Con nuestro servicio de consultoría
