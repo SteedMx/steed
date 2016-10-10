@@ -16,8 +16,11 @@
     <div class="container">
       <main role="main">
         <section id="menu" class="menu-hidden">
+          <a href="/">
+            <h2 class="menu-item" id="first-menu-item">steed.</h2>
+          </a>
           <a href="/consultoria">
-            <h2 class="menu-item" id="first-menu-item">Consultoría</h2>
+            <h2 class="menu-item">Consultoría</h2>
           </a>
           <a href="/soluciones">
             <h2 class="menu-item">Soluciones</h2>
