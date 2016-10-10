@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <main role="main">
-        <section id="menu" class="menu menu-hidden">
+        <section id="menu" class="menu-hidden">
           <a href="/consultoria">
             <h2 class="menu-item" id="first-menu-item">Consultoría</h2>
           </a>

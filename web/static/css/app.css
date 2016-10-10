@@ -2,6 +2,10 @@
   text-rendering:optimizeLegibility;
 }
 
+*:focus {
+  outline: none;
+}
+
 body, html {
   margin:0;
   padding:0;
@@ -17,7 +21,7 @@ section {
 * MENU
 */
 #menu {
-  background:-webkit-linear-gradient(rgb(160,30,28), rgb(97,4,0));
+  background:-webkit-linear-gradient(left, rgb(160,30,28), rgba(97,4,0, 0.8));
   width:30vw;
   position:fixed;
   z-index:665;
@@ -32,9 +36,14 @@ section {
 }
 
 .menu-item {
+  transition:color 0.5s ease;
   font-family:Avenir,sans-serif;
   color:white;
   margin:0 5vw 0 5vw;
+}
+
+.menu-item:hover {
+  color:#ff7878;
 }
 
 #first-menu-item {
@@ -51,7 +60,12 @@ section {
   margin:15vh 5vw 0 5vw;
 }
 
+#menu-info > p {
+  margin:0.5vh 0 0.5vh 0;
+}
+
 #menu-trigger {
+  transition:background-image 0.5s ease;
   position:fixed;
   z-index:666;
   left:5vw;
