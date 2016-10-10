@@ -269,13 +269,13 @@ section {
 
 #solutions {
   position:absolute;
-  bottom:10em;
-  left:3em;
+  bottom:7em;
+  left:2.2em;
   color:rgb(230,48,46);
   font-family:Avenir,sans-serif;
   text-transform:lowercase;
   letter-spacing:0.1em;
-  font-size:1.5em;
+  font-size:2em;
 }
 
 #solutions-feature {
@@ -332,13 +332,13 @@ section {
 
 #events {
   position:absolute;
-  bottom:10em;
-  left:3em;
+  bottom:7em;
+  left:2.2em;
   color:rgb(230,48,46);
   font-family:Avenir,sans-serif;
   text-transform:lowercase;
   letter-spacing:0.1em;
-  font-size:1.5em;
+  font-size:2em;
 }
 
 #events-feature {
