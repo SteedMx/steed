@@ -18,6 +18,10 @@ section {
   background-color:#c1c1c1;
 }
 
+.parallax {
+  background-position:0 0;
+}
+
 /*
 * MENU
 */
