@@ -15,6 +15,26 @@
   <body>
     <div class="container">
       <main role="main">
+        <section id="menu">
+          <a href="/consultoria">
+            <h2 class="menu-item" id="first-menu-item">Consultoría</h2>
+          </a>
+          <a href="/soluciones">
+            <h2 class="menu-item">Soluciones</h2>
+          </a>
+          <a href="/eventos">
+            <h2 class="menu-item">Eventos</h2>
+          </a>
+          <a href="mailto:info@steed.mx">
+            <h2 class="menu-item" id="menu-contact">Contacto</h2>
+          </a>
+          <div id="menu-info">
+            <p>Tabasco 242,</p>
+            <p>Roma Norte</p>
+            <p>55 2259 6898</p>
+            <p>info@steed.mx</p>
+          </div>
+        </section>
         <button id="menu-trigger" class="animated pulse"></button>
         <button id="be-quoted" class="animated pulse">Cotiza</button>
         <%= render @view_module, @view_template, assigns %>
