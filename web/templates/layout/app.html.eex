@@ -24,6 +24,8 @@
           </a>
           <a href="/soluciones">
             <h2 class="menu-item">Soluciones</h2>
+            <h3 class="menu-item menu-sub-item">Shared-economy engine</h3>
+            <h3 class="menu-item menu-sub-item">Social media dashboard (próximamente)</h3>
           </a>
           <a href="/eventos">
             <h2 class="menu-item">Eventos</h2>
