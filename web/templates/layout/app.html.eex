@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <main role="main">
-        <section id="menu">
+        <section id="menu" class="menu menu-hidden">
           <a href="/consultoria">
             <h2 class="menu-item" id="first-menu-item">Consultoría</h2>
           </a>
@@ -35,7 +35,7 @@
             <p>info@steed.mx</p>
           </div>
         </section>
-        <button id="menu-trigger" class="animated pulse"></button>
+        <button id="menu-trigger" class="animated pulse menu-open"></button>
         <button id="be-quoted" class="animated pulse">Cotiza</button>
         <%= render @view_module, @view_template, assigns %>
       </main>
@@ -64,6 +64,10 @@
     </div> <!-- /container -->
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous">
+    </script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
             crossorigin="anonymous">
     </script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>

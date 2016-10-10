@@ -21,7 +21,14 @@ section {
   width:30vw;
   position:fixed;
   z-index:665;
+}
+
+.menu-hidden {
   display:none;
+}
+
+.menu-visible {
+  display:inherit;
 }
 
 .menu-item {
@@ -49,10 +56,6 @@ section {
   z-index:666;
   left:5vw;
   top:8vh;
-
-  background-image:url("/images/menu-icon.png");
-  background-color:transparent;
-  background-size:cover;
   color: white;
   text-transform: lowercase;
   font-family: Avenir,sans-serif;
@@ -64,6 +67,18 @@ section {
   height:5vh;
   min-width:40px;
   min-height:30px;
+}
+
+.menu-open {
+  background-image:url("/images/menu-icon.png");
+  background-color:transparent;
+  background-size:cover;
+}
+
+.menu-close {
+  background-image:url("/images/menu-icon-close.png");
+  background-color:transparent;
+  background-size:cover;
 }
 
 #be-quoted {
