@@ -22,11 +22,13 @@
           <a href="/consultoria">
             <h2 class="menu-item">Consultoría</h2>
           </a>
-          <a href="/soluciones">
-            <h2 class="menu-item">Soluciones</h2>
-            <h3 class="menu-item menu-sub-item">Shared-economy engine</h3>
-            <h3 class="menu-item menu-sub-item">Social media dashboard (próximamente)</h3>
+          <h2 class="menu-item" id="solutions-menu">Soluciones</h2>
+          <a href="/soluciones#shared-economy-engine">
+            <h3 class="menu-item menu-sub-item menu-hidden">Shared-economy engine</h3>
           </a>
+          <br class="menu-sub-item menu-hidden">
+          <a href="/soluciones#fondapp">
+            <h3 class="menu-item menu-sub-item menu-hidden">Social media dashboard (próximamente)</h3>
           <a href="/eventos">
             <h2 class="menu-item">Eventos</h2>
           </a>
