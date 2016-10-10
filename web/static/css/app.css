@@ -431,6 +431,7 @@ a {
   width:20vw;
   text-transform:lowercase;
   font-weight:100;
+  font-size:1.2em;
   color:#fff;
 }
 
@@ -441,7 +442,7 @@ a {
 
 #what-we-do-text {
   width:40vw;
-  font-size:1em;
+  font-size:1.1em;
 }
 
 .what-we-do-relevant {
