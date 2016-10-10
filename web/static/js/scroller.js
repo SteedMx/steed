@@ -1,0 +1,3 @@
+$.scrollify({
+  section:'.section'
+})

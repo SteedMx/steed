@@ -1,9 +1,9 @@
-<section id="events-section">
+<section id="events-section" class="section" data-section-name="splash">
   <div id="events-triangles" class="animated fadeInRight"></div>
   <h2 id="events" class="animated pulse">Eventos</h2>
   <h3 id="events-feature" class="animated fadeInLeft">Nuevo Ingenio Mexicano</h3>
 </section>
-<section id="nim-section">
+<section id="nim-section" class="section" data-section-name="nim">
   <img class="animated fadeInLeft" id="nim-imtt" src="<%= static_path(@conn, "/images/nim-imtt.png") %>" alt="" />
   <div id="nim-text" class="animated fadeInRight">
     <p>
@@ -19,7 +19,7 @@
     </p>
   </div>
 </section>
-<section id="nim-events-section">
+<section id="nim-events-section" class="section" data-section-name="eventos-nim">
   <div class="nim-banner">
     <p>Eventos del NIM</p>
   </div>
@@ -54,7 +54,7 @@
     </div>
   </div>
 </section>
-<section id="nim-events-section">
+<section id="nim-events-section" class="section" data-section-name="meetups-nim">
   <div class="nim-banner">
     <p>Meetups del NIM</p>
   </div>

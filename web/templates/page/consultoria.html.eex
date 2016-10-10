@@ -1,11 +1,11 @@
-<section id="consultancy-section">
+<section id="consultancy-section" class="section" data-section-name="splash">
   <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/open-plan-working.jpg">
     <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
   </video>
   <div id="consultancy-video-color"></div>
   <h2 id="consultancy" class="animated fadeInLeft">Consultoría</h2>
 </section>
-<section id="what-we-do-section">
+<section id="what-we-do-section" class="section" data-section-name="lo-que-hacemos">
   <div id="what-we-do-container" class="animated fadeInLeft">
     <h3 id="what-we-do">Lo que hacemos.</h3>
     <div id="what-we-do-underline"></div>
@@ -28,7 +28,7 @@
     </p>
   </div>
 </section>
-<section id="our-process-section">
+<section id="our-process-section" class="section" data-section-name="nuestro-proceso">
   <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/sketching-mock-up.jpg">
     <source src="https://d3k5xyayaartr5.cloudfront.net/sketching-mock-up/sketching-mock-up.webm">
   </video>
@@ -74,10 +74,10 @@
     </div>
   </div>
 </section>
-<section id="three-pilars-section">
+<section id="three-pilars-section" class="section" data-section-name="tres-pilares">
   Tres pilares
 </section>
-<section id="clients-section">
+<section id="clients-section" class="section" data-section-name="clientes">
   <div id="clients-container">
     <h3 id="clients" class="animated pulse">Clientes.</h3>
     <div id="clients-underline"></div>

@@ -1,11 +1,11 @@
-<section id="splash-section">
+<section id="splash-section" class="section" data-section-name="splash">
   <div id="splash">
     <h1 id="steed" class="animated fadeInLeft">steed.</h1>
     <p id="welcome">Bienvenido al Futuro. Con nuestro servicio de consultoría
     alcanzarás tus metas de crecimiento.</p>
   </div>
 </section>
-<section id="consultancy-section">
+<section id="consultancy-section" class="section" data-section-name="consultoria">
   <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/open-plan-working.jpg">
     <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
   </video>
@@ -14,14 +14,14 @@
     <h2 id="consultancy" class="animated fadeInLeft">Consultoría</h2>
   </a>
 </section>
-<section id="solutions-section">
+<section id="solutions-section" class="section" data-section-name="soluciones">
   <div id="solutions-iphone" class="animated fadeInRight"></div>
   <a href="/soluciones">
     <h2 id="solutions" class="animated pulse">Soluciones</h2>
     <h3 id="solutions-feature" class="animated fadeInLeft">Shared-economy Engine</h3>
   </a>
 </section>
-<section id="events-section">
+<section id="events-section" class="section" data-section-name="eventos">
   <div id="events-triangles" class="animated fadeInRight"></div>
   <a href="/eventos">
     <h2 id="events" class="animated pulse">Eventos</h2>

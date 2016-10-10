@@ -1,9 +1,9 @@
-<section id="solutions-section">
+<section id="solutions-section" class="section" data-section-name="splash">
   <div id="solutions-iphone" class="animated fadeInRight"></div>
   <h2 id="solutions" class="animated pulse">Soluciones</h2>
   <h3 id="solutions-feature" class="animated fadeInLeft">Shared-economy Engine</h3>
 </section>
-<section id="what-we-do-section">
+<section id="what-we-do-section" class="section" data-section-name="shared-economy-engine">
   <div id="what-we-do-container" class="animated fadeInLeft">
     <h3 id="what-we-do">shared-economy engine.</h3>
     <div id="what-we-do-underline"></div>
@@ -26,13 +26,13 @@
     </p>
   </div>
 </section>
-<section id="deluxe-section">
+<section id="deluxe-section" class="section" data-section-name="deluxe">
   <img class="animated fadeInDown" id="deluxe-logo" src="<%= static_path(@conn, "/images/deluxe-logo.png") %>" alt="DELUXE" />
   <img class="animated fadeInDown" id="deluxe-icon" src="<%= static_path(@conn, "/images/deluxe-icon.png") %>" alt="" />
   <p class="animated fadeInUp" id="deluxe-text">Beauty on-demand</p>
   <img class="animated fadeInLeft" id="deluxe-app"src="<%= static_path(@conn, "/images/deluxe-app.png") %>" alt="" />
 </section>
-<section id="fondapp-section">
+<section id="fondapp-section" class="section" data-section-name="fondapp">
   <div id="fondapp-container" class="animated fadeInLeft">
     <img id="fondapp-icon" src="<%= static_path(@conn, "/images/fondapp-icon.png") %>" alt="" />
     <p id="fondapp">Fondapp</p>
