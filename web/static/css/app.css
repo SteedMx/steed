@@ -710,6 +710,7 @@ a {
   letter-spacing:0.2em;
   font-size:1.5em;
   padding:0.1em;
+  z-index:10;
 }
 
 /*
@@ -727,7 +728,7 @@ a {
   align-items:center;
   justify-content:center;
 
-  margin:2vh 2vw 0 2vw;
+  margin:-6vh 2vw 0 2vw;
 }
 .nim-event {
   max-width:10vw;
