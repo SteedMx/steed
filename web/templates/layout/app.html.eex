@@ -9,6 +9,7 @@
 
     <title>steed.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet">
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
@@ -81,5 +82,7 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.5/jquery.scrollify.min.js">
     </script>
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script src="https://use.typekit.net/leo8jsg.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
   </body>
 </html>
