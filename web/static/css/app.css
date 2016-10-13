@@ -183,6 +183,7 @@ section {
   font-family:"Avenir CDN",sans-serif;
   font-weight:100;
   font-size:8em;
+  margin:-0.4em 0 0 0;
 }
 
 #welcome {
@@ -191,7 +192,7 @@ section {
   font-weight:100;
   font-size:1.2em;
   letter-spacing:0.02em;
-  margin:-4em 0 0 0;
+  margin:0;
   max-width:30em;
 }
 
@@ -285,10 +286,10 @@ section {
   background-size:cover;
   position:absolute;
 
-  width:90vw;
+  width:60vw;
   height:90vh;
-  bottom:11em;
-  left:20vw;
+  bottom:4em;
+  left:45vw;
 }
 
 #solutions {
@@ -593,11 +594,11 @@ a {
 
 #clients-logos-container {
   padding:0 0 0 10vw;
-  margin: 5vh 0 0 0;
+  margin:0;
 }
 
 .clients-logo {
-  max-width: 20vw;
+  max-width: 70vw;
   min-width: 65px;
   margin:1em;
 }
@@ -693,8 +694,8 @@ a {
 
 #fondapp-app {
   position:static;
-  margin:40vh 35vw 0 0;
-  max-height:60vh;
+  margin:6vh 25vw 0 0;
+  max-height:70vh;
 }
 
 /*

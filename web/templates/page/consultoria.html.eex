@@ -83,16 +83,6 @@
     <div id="clients-underline"></div>
   </div>
   <div id="clients-logos-container">
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-se.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-imtt.png") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-sep.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-servifacil.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-sct.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-fablab.svg") %>" alt="" />
-    <img class="clients-logo" id="mattel" src="<%= static_path(@conn, "/images/clients-mattel.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-robotix.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-compropago.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-itesm.svg") %>" alt="" />
-    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients-nickelodeon.svg") %>" alt="" />
+    <img class="clients-logo" src="<%= static_path(@conn, "/images/clients.png") %>" alt="" />
   </div>
 </section>
