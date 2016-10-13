@@ -20,7 +20,7 @@
           <a href="/">
             <h2 class="menu-item" id="first-menu-item">steed.</h2>
           </a>
-          <a href="/consultoria">
+          <a href="/consultoria#lo-que-hacemos">
             <h2 class="menu-item">Consultoría</h2>
           </a>
           <h2 class="menu-item" id="solutions-menu">Soluciones</h2>
@@ -30,7 +30,7 @@
           <br class="menu-sub-item menu-hidden">
           <a href="/soluciones#fondapp">
             <h3 class="menu-sub-item menu-hidden">Social media dashboard (próximamente)</h3>
-          <a href="/eventos">
+          <a href="/eventos#nim">
             <h2 class="menu-item">Eventos</h2>
           </a>
           <a href="mailto:info@steed.mx">
