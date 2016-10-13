@@ -294,8 +294,8 @@ section {
 
 #solutions {
   position:absolute;
-  /*bottom:7em;*/
-  left:2.2em;
+  bottom:10em;
+  left:2em;
   color:rgb(230,48,46);
   font-family:Avenir,sans-serif;
   text-transform:lowercase;
@@ -306,6 +306,7 @@ section {
 #solutions-feature {
   transition:color 0.5s ease;
   position:absolute;
+  bottom:0.2em;
   left:0.5em;
   color:#fff;
   font-family:league-gothic,sans-serif;
@@ -358,7 +359,7 @@ section {
 #events {
   position:absolute;
   bottom:10em;
-  left:2.2em;
+  left:2em;
   color:rgb(230,48,46);
   font-family:Avenir,sans-serif;
   text-transform:lowercase;
