@@ -529,22 +529,17 @@ a {
   display:-webkit-flex;
   -webkit-flex-direction:row wrap;
   flex-direction:row wrap;
-  align-items:top;
   justify-content: space-around;
-
-  height:30vh;
   position:absolute;
 }
 
 .our-process-card {
   background-color:#fff;
-  opacity:0.7;
   box-shadow:0 0 15px #5f4444;
 
   width:300px;
-  height:60vh;
   margin:0 0.5vw 0 0.5vw;
-  padding:0.5em;
+  padding:1em;
   bottom:3em;
 
   font-family:Avenir, sans-serif;
