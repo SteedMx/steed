@@ -49,12 +49,12 @@ section {
 
 .menu-item {
   transition:color 0.5s ease;
-  font-family:Avenir,sans-serif;
+  font-family:lato,sans-serif;
   color:white;
   margin:0 5vw 0 5vw;
   text-transform:lowercase;
   font-weight:100;
-  font-size:2.8em;
+  font-size:2.2em;
 }
 
 .menu-sub-item {
@@ -80,7 +80,8 @@ section {
 
 #first-menu-item {
   font-weight:100;
-  padding:15vh 0 5vh 0;
+  padding:20vh 0 5vh 0;
+  font-family:"Avenir CDN",sans-serif;
 }
 
 #menu-contact {
@@ -88,7 +89,7 @@ section {
 }
 
 #menu-info {
-  font-family:Avenir,sans-serif;
+  font-family:lato,sans-serif;
   color:white;
   margin:15vh 5vw 0 5vw;
 }
@@ -105,7 +106,7 @@ section {
   top:8vh;
   color: white;
   text-transform: lowercase;
-  font-family: Avenir,sans-serif;
+  font-family:"Avenir CDN",sans-serif;
   font-size: 1.2em;
   letter-spacing: 0.1em;
   border:none;
@@ -137,7 +138,7 @@ section {
   background-color:rgb(230,48,46);
   color:white;
   text-transform:lowercase;
-  font-family:Avenir,sans-serif;
+  font-family:"Avenir CDN",sans-serif;
   font-size:1.6em;
   letter-spacing:0.1em;
   border-color:white;
@@ -361,7 +362,7 @@ section {
   bottom:10em;
   left:2em;
   color:rgb(230,48,46);
-  font-family:Avenir,sans-serif;
+  font-family:"Avenir CDN",sans-serif;
   text-transform:lowercase;
   letter-spacing:0.1em;
   font-size:2em;
@@ -403,7 +404,7 @@ footer {
 .footer-section {
   margin:5vh 10vw 5vh 10vw;
   width:20vw;
-  font-family:Avenir, sans-serif;
+  font-family:"Avenir CDN", sans-serif;
   font-size:0.8em;
 }
 
@@ -445,7 +446,7 @@ a {
   align-content:center;
   align-items:center;
 
-  font-family:Avenir, sans-serif;
+  font-family:"Avenir CDN", sans-serif;
   color:#ff9999;
 }
 
@@ -517,7 +518,7 @@ a {
 
 #our-process {
   width:80vw;
-  font-family:Avenir, sans-serif;
+  font-family:"Avenir CDN", sans-serif;
   text-transform:lowercase;
   font-weight:100;
   color:#fff;
@@ -543,7 +544,7 @@ a {
   padding:1em;
   bottom:3em;
 
-  font-family:Avenir, sans-serif;
+  font-family:"Avenir CDN", sans-serif;
   text-align:justify;
 }
 
@@ -591,7 +592,7 @@ a {
   flex-direction:column;
   align-content:center;
 
-  font-family:Avenir, sans-serif;
+  font-family:"Avenir CDN", sans-serif;
   color:#ff9999;
 }
 
@@ -646,7 +647,7 @@ a {
   align-content:center;
   align-items:center;
 
-  font-family:Avenir, sans-serif;
+  font-family:lato, sans-serif;
   color:#ff9999;
 }
 
@@ -663,8 +664,9 @@ a {
 
 #deluxe-text {
   margin:10vh;
-  font-size:1.2em;
+  font-size:1.6em;
   color:white;
+  font-weight:100;
 }
 
 #deluxe-app {
@@ -691,7 +693,7 @@ a {
   align-content:center;
   align-items:center;
 
-  font-family:Avenir, sans-serif;
+  font-family:"Fira Sans", sans-serif;
   color:#ff9999;
 }
 
@@ -706,12 +708,15 @@ a {
 }
 
 #fondapp {
-  font-family:PragmataPro, sans-serif;
+  font-family:"Fira Sans", sans-serif;
   text-transform:uppercase;
   width:10vw;
   text-align:center;
   font-size:1.2em;
   letter-spacing:0.05em;
+  font-weight:100;
+  color:white;
+  letter-spacing:0.3em;
 }
 
 #fondapp-app {
@@ -734,7 +739,7 @@ a {
   align-content:center;
   align-items:center;
 
-  font-family:Avenir, sans-serif;
+  font-family:"Avenir CDN", sans-serif;
   background-color:white;
 }
 
@@ -765,11 +770,11 @@ a {
   background-color:black;
   color:white;
   text-align:center;
-  font-family:Avenir, sans-serif;
+  font-family:league-gothic, sans-serif;
   text-transform:uppercase;
   letter-spacing:0.2em;
-  font-size:1.5em;
-  padding:0.1em;
+  font-size:2.2em;
+  padding:0.5em 0;
   z-index:10;
   position:relative;
 }
@@ -809,7 +814,7 @@ a {
 }
 
 .nim-event-text {
-  font-family:Avenir,sans-serif;
+  font-family:"Avenir CDN",sans-serif;
   font-size:1em;
   text-align:justify;
   width:15vw;
@@ -826,7 +831,7 @@ a {
 */
 
 #nim-meetups-intro {
-  font-family:Avenir, sans-serif;
+  font-family:"Avenir CDN", sans-serif;
   font-size:1em;
   width:60vw;
   text-align:justify;
@@ -871,6 +876,6 @@ a {
 .nim-meetup-text {
   width:30vw;
   margin:0 5vw 0 5vw;
-  font-family:Avenir,sans-serif;
+  font-family:"Avenir CDN",sans-serif;
   font-size:1em;
 }
