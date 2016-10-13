@@ -74,8 +74,12 @@
     </div>
   </div>
 </section>
-<section id="three-pilars-section" class="section" data-section-name="tres-pilares">
-  Tres pilares
+<section id="our-vision-section" class="section" data-section-name="nuestra-vision">
+  <div id="our-vision-container">
+    <h3 id="our-vision" class="animated pulse">Nuestra visión.</h3>
+    <div id="our-vision-underline"></div>
+  </div>
+  <img id="our-vision-schema" src="<%= static_path(@conn, "/images/our-vision.png") %>" alt="" />
 </section>
 <section id="clients-section" class="section" data-section-name="clientes">
   <div id="clients-container">
