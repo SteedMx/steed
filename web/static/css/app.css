@@ -29,6 +29,50 @@ section {
 }
 
 /*
+* BE QUOTED
+*/
+#be-quoted-section {
+  transition:display 2s ease;
+  background-color:white;
+  width:100vw;
+  position:fixed;
+  z-index:665;
+}
+
+#be-quoted-description {
+  background-color:rgb(230,48,46);
+  width:50vw;
+  height:70vh;
+}
+
+#be-quoted-steed {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:8em;
+  text-transform:lowercase;
+  color:white;
+  margin:0 10vw;
+  padding:0
+}
+
+#be-quoted-service {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:3em;
+  text-transform:lowercase;
+  color:white;
+  margin:0 5vw;
+  padding:0
+}
+
+#be-quoted-service-description {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:1.2em;
+  text-align:justify;
+  color:white;
+  margin:6vh 5vw;
+  padding:0
+}
+
+/*
 * MENU
 */
 #menu {

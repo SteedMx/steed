@@ -16,6 +16,24 @@
   <body>
     <div class="container">
       <main role="main">
+        <!-- QUOTE REQUEST -->
+        <section id="be-quoted-section">
+          <div id="be-quoted-description">
+            <p id="be-quoted-steed">Steed.</p>
+            <p id="be-quoted-service">Servicio de consultoría</p>
+            <p id="be-quoted-service-description">
+              Siempre partimos de un proceso de investigación previa para entender la
+              naturaleza del reto. Ya sea mejorar un proceso empresarial, analizar
+              una oportunidad en el mercado o desarrollar un proyecto de software,
+              buscamos entender el panorama desde el punto de vista empático
+              (utilizando técnicas de Design Thinking por ejemplo) y el analítico
+              (a través de nuestras herramientas de procesamiento de datos).
+              De esta manera podemos prever el efecto que tendrá un desarrollo en términos
+              financieros y de experiencia de usuario.
+            </p>
+          </div>
+        </section>
+        <!-- MENU -->
         <section id="menu" class="menu-hidden">
           <a href="/">
             <h2 class="menu-item" id="first-menu-item">steed.</h2>
