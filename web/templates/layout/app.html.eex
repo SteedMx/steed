@@ -43,7 +43,7 @@
                 <%= text_input f, :company, required: true %>
               </div>
               <div class="be-quoted-field">
-                <label>Email</label>
+                <label id="email">Email</label>
                 <%= email_input f, :email, required: true %>
               </div>
               <div class="be-quoted-field">
