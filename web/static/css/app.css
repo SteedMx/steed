@@ -41,11 +41,6 @@ section {
   width:100vw;
   position:fixed;
   z-index:665;
-
-  display:flex;
-  display:-webkit-flex;
-  -webkit-flex-direction:row;
-  flex-direction:row;
 }
 
 #be-quoted-description {
@@ -161,6 +156,17 @@ section {
   box-shadow:0 1px 7px #3c1010;
 }
 
+.be-quoted-visible {
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+}
+
+.be-quoted-hidden {
+  display:none;
+}
+
 /*
 * MENU
 */
@@ -267,7 +273,9 @@ section {
   z-index:666;
   right:5vw;
   top:8vh;
+}
 
+.be-quoted-open {
   background-color:rgb(230,48,46);
   color:white;
   text-transform:lowercase;
@@ -280,6 +288,19 @@ section {
   padding:1.5vh 1.5vw;
 
   box-shadow:0 1px 7px #3c1010;
+}
+
+.be-quoted-close {
+  background-image:url("/images/be-quoted-icon-close.png");
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  border:none;
+  background-color:transparent;
+  color:transparent;
+  height:15vh;
+  margin-top:-8vh;
+  margin-right:2vw;
 }
 
 /*

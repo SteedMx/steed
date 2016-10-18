@@ -17,7 +17,7 @@
     <div class="container">
       <main role="main">
         <!-- QUOTE REQUEST -->
-        <section id="be-quoted-section">
+        <section id="be-quoted-section" class="be-quoted-hidden">
           <div id="be-quoted-description">
             <p id="be-quoted-steed">Steed.</p>
             <p id="be-quoted-service">Servicio de consultoría</p>
@@ -101,7 +101,7 @@
           </div>
         </section>
         <button id="menu-trigger" class="animated pulse menu-open"></button>
-        <button id="be-quoted" class="animated pulse">Cotiza</button>
+        <button id="be-quoted" class="animated pulse be-quoted-open">Cotiza</button>
         <%= render @view_module, @view_template, assigns %>
       </main>
 
