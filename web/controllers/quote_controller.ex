@@ -1,12 +1,12 @@
-def Cheval.QuoteController do
+defmodule Cheval.QuoteController do
   use Cheval.Web, :controller
-  alias Cheval.{Request, Repo}
+  alias Cheval.{Request, Repo, PageView}
 
   def request(conn, %{"request" => request}) do
     send_request(request)
     |> case do
-         %Request{} -> redirect(to: "/")
-         changeset -> render conn, "index.html", changeset: changeset
+         %Request{} -> redirect conn, to: "/"
+         changeset -> render conn, PageView, "index.html", changeset: changeset
        end
   end
 

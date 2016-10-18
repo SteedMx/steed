@@ -36,37 +36,37 @@
             <div id="be-quoted-personal">
               <div class="be-quoted-field">
                 <label>Nombre</label>
-                <%= text_input f, :name %>
+                <%= text_input f, :name, autofocus: true, required: true %>
               </div>
               <div class="be-quoted-field">
                 <label>Empresa</label>
-                <%= text_input f, :company %>
+                <%= text_input f, :company, required: true %>
               </div>
               <div class="be-quoted-field">
                 <label>Email</label>
-                <%= email_input f, :email %>
+                <%= email_input f, :email, required: true %>
               </div>
               <div class="be-quoted-field">
                 <label>Teléfono</label>
-                <%= telephone_input f, :phone %>
+                <%= telephone_input f, :phone, required: true %>
               </div>
             </div>
             <div id="be-quoted-details">
               <div class="be-quoted-field">
                 <label>¿Qué servicio necesitas?</label>
-                <%= select f, :service, services %>
+                <%= select f, :service, services, required: true %>
               </div>
               <div class="be-quoted-field">
                 <label>¿Cuál es tu presupuesto?</label>
-                <%= select f, :budget, budgets %>
+                <%= select f, :budget, budgets, required: true %>
               </div>
               <div class="be-quoted-date-field">
                 <label>¿Cuándo lo necesitas?</label>
-                <%= date_select f, :deadline, year: [options: 2016..2017] %>
+                <%= date_select f, :deadline, year: [options: 2016..2017], required: true %>
               </div>
               <div class="be-quoted-field">
                 <label>Cuéntanos de tu proyecto</label>
-                <%= textarea f, :details %>
+                <%= textarea f, :details, required: true %>
               </div>
             </div>
             <%= submit "Enviar", id: "be-quoted-submit" %>
