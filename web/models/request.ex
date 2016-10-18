@@ -11,7 +11,7 @@ defmodule Cheval.Request do
     field :service, :string
     field :details, :string
     field :budget, :string
-    field :answered, :boolean
+    field :answered, :boolean, default: false
 
     timestamps()
   end
@@ -19,7 +19,7 @@ defmodule Cheval.Request do
   def changeset, do: changeset(%Request{})
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:name, :company, :email, :phone, :deadline, :service, :details, :budget, :answered])
-    |> validate_required([:name, :company, :email, :phone, :deadline, :service, :details, :budget, :answered])
+    |> cast(params, [:name, :company, :email, :phone, :deadline, :service, :details, :budget])
+    |> validate_required([:name, :company, :email, :phone, :deadline, :service, :details, :budget])
   end
 end
