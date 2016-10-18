@@ -60,7 +60,7 @@
                 <label>¿Cuál es tu presupuesto?</label>
                 <%= select f, :budget, ["ajsfask", "ajsfas"] %>
               </div>
-              <div class="be-quoted-field">
+              <div class="be-quoted-date-field">
                 <label>¿Cuándo lo necesitas?</label>
                 <%= date_select f, :deadline %>
               </div>

@@ -37,6 +37,11 @@ section {
   width:100vw;
   position:fixed;
   z-index:665;
+
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
 }
 
 #be-quoted-description {
@@ -70,6 +75,65 @@ section {
   color:white;
   margin:6vh 5vw;
   padding:0
+}
+
+.be-quoted-field, .be-quoted-date-field {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:1.2em;
+  color:rgb(230,48,46);
+  margin:4vh 5vw;
+  padding:0
+}
+
+.be-quoted-field > label {
+  margin-right:3vw;
+  text-align:center;
+}
+
+.be-quoted-date-field > label {
+  margin-right:3vw;
+  text-align:center;
+}
+
+.be-quoted-field > input, textarea {
+  border-style:solid;
+  border-color:rgb(230,48,46);
+  border-radius:0.2vw;
+  border-width:0.05em;
+  width:20vw;
+  color:rgb(230,48,46);
+  letter-spacing:0.1em;
+  font-size:0.8em;
+  padding:0.5em;
+}
+
+.be-quoted-field > textarea {
+  margin-top:1.5vh;
+  width:35vw;
+}
+
+.be-quoted-field > select {
+  background: transparent;
+  width:15vw;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Red_Arrow_Down.svg) 96% / 7% no-repeat #eee;
+}
+
+.be-quoted-date-field > select {
+  background: transparent;
+  width:7vw;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Red_Arrow_Down.svg) 92% / 15% no-repeat #eee;
 }
 
 /*
