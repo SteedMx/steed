@@ -18,6 +18,8 @@ defmodule Cheval.Router do
 
     get "/", PageController, :index
     get "/:route", PageController, :pages
+
+    post "/quote", QuoteController, :request
   end
 
   # Other scopes may use custom stacks.

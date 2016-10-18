@@ -32,6 +32,45 @@
               financieros y de experiencia de usuario.
             </p>
           </div>
+          <%= form_for @changeset, quote_path(@conn, :request), fn f -> %>
+            <div id="be-quoted-personal">
+              <div class="be-quoted-field">
+                <label>Nombre</label>
+                <%= text_input f, :name %>
+              </div>
+              <div class="be-quoted-field">
+                <label>Empresa</label>
+                <%= text_input f, :company %>
+              </div>
+              <div class="be-quoted-field">
+                <label>Email</label>
+                <%= email_input f, :email %>
+              </div>
+              <div class="be-quoted-field">
+                <label>Teléfono</label>
+                <%= telephone_input f, :phone %>
+              </div>
+            </div>
+            <div id="be-quoted-details">
+              <div class="be-quoted-field">
+                <label>¿Qué servicio necesitas?</label>
+                <%= select f, :service, ["owakfa", "ajsfas"] %>
+              </div>
+              <div class="be-quoted-field">
+                <label>¿Cuál es tu presupuesto?</label>
+                <%= select f, :budget, ["ajsfask", "ajsfas"] %>
+              </div>
+              <div class="be-quoted-field">
+                <label>¿Cuándo lo necesitas?</label>
+                <%= date_select f, :deadline %>
+              </div>
+              <div class="be-quoted-field">
+                <label>Cuéntanos de tu proyecto</label>
+                <%= textarea f, :details %>
+              </div>
+            </div>
+            <%= submit "Submit" %>
+          <% end %>
         </section>
         <!-- MENU -->
         <section id="menu" class="menu-hidden">

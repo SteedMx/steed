@@ -1,5 +1,6 @@
 defmodule Cheval.Request do
   use Cheval.Web, :model
+  alias Cheval.Request
 
   schema "requests" do
     field :name, :string
@@ -15,12 +16,10 @@ defmodule Cheval.Request do
     timestamps()
   end
 
-  @doc """
-  Builds a changeset based on the `struct` and `params`.
-  """
+  def changeset, do: changeset(%Request{})
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:name, :company, :email, :phone, :deadline, :service, :details, :budget])
-    |> validate_required([:name, :company, :email, :phone, :deadline, :service, :details, :budget])
+    |> cast(params, [:name, :company, :email, :phone, :deadline, :service, :details, :budget, :answered])
+    |> validate_required([:name, :company, :email, :phone, :deadline, :service, :details, :budget, :answered])
   end
 end
