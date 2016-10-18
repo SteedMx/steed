@@ -54,22 +54,22 @@
             <div id="be-quoted-details">
               <div class="be-quoted-field">
                 <label>¿Qué servicio necesitas?</label>
-                <%= select f, :service, ["owakfa", "ajsfas"] %>
+                <%= select f, :service, services %>
               </div>
               <div class="be-quoted-field">
                 <label>¿Cuál es tu presupuesto?</label>
-                <%= select f, :budget, ["ajsfask", "ajsfas"] %>
+                <%= select f, :budget, budgets %>
               </div>
               <div class="be-quoted-date-field">
                 <label>¿Cuándo lo necesitas?</label>
-                <%= date_select f, :deadline %>
+                <%= date_select f, :deadline, year: [options: 2016..2017] %>
               </div>
               <div class="be-quoted-field">
                 <label>Cuéntanos de tu proyecto</label>
                 <%= textarea f, :details %>
               </div>
             </div>
-            <%= submit "Submit" %>
+            <%= submit "Enviar", id: "be-quoted-submit" %>
           <% end %>
         </section>
         <!-- MENU -->

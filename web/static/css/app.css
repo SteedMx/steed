@@ -34,6 +34,10 @@ section {
 #be-quoted-section {
   transition:display 2s ease;
   background-color:white;
+  background-image:url("/images/be-quoted-services.png");
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size:contain;
   width:100vw;
   position:fixed;
   z-index:665;
@@ -81,18 +85,20 @@ section {
   font-family:"Avenir CDN", sans-serif;
   font-size:1.2em;
   color:rgb(230,48,46);
-  margin:4vh 5vw;
+  margin:3vh 5vw;
   padding:0
 }
 
 .be-quoted-field > label {
   margin-right:3vw;
   text-align:center;
+  width:75vw;
 }
 
 .be-quoted-date-field > label {
   margin-right:3vw;
   text-align:center;
+  width:25vw;
 }
 
 .be-quoted-field > input, textarea {
@@ -105,6 +111,7 @@ section {
   letter-spacing:0.1em;
   font-size:0.8em;
   padding:0.5em;
+  text-align:right;
 }
 
 .be-quoted-field > textarea {
@@ -114,7 +121,8 @@ section {
 
 .be-quoted-field > select {
   background: transparent;
-  width:15vw;
+  width:20vw;
+  color:rgb(230,48,46);
   padding: 5px 35px 5px 5px;
   font-size: 16px;
   border: 1px solid #ccc;
@@ -126,6 +134,7 @@ section {
 
 .be-quoted-date-field > select {
   background: transparent;
+  color:rgb(230,48,46);
   width:7vw;
   padding: 5px 35px 5px 5px;
   font-size: 16px;
@@ -134,6 +143,22 @@ section {
   -moz-appearance: none;
   appearance: none;
   background: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Red_Arrow_Down.svg) 92% / 15% no-repeat #eee;
+}
+
+#be-quoted-submit {
+  background-color:rgb(230,48,46);
+  color:white;
+  text-transform:lowercase;
+  font-family:"Avenir CDN",sans-serif;
+  font-size:1.2em;
+  letter-spacing:0.1em;
+  border-color:white;
+  border-style:solid;
+  border-width:0.08em;
+  padding:1vh 1vw;
+  margin-left:37vw;
+
+  box-shadow:0 1px 7px #3c1010;
 }
 
 /*
