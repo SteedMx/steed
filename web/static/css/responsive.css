@@ -20,7 +20,7 @@
   }
 
   .be-quoted-field > input {
-    width:50vw;
+    width:53vw;
     margin-left:7vw;
   }
 
@@ -30,6 +30,7 @@
 
   #be-quoted-submit {
     margin:0 42vw;
+    padding:1vh 3vw;
   }
 
   #email {
@@ -55,7 +56,8 @@
   }
 
   #be-quoted-section > form {
-    font-size:0.8em;
+    font-size:0.6em;
+    margin-left:2vw;
   }
 
   #be-quoted-steed {
