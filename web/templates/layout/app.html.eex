@@ -34,7 +34,7 @@
           </div>
           <%= form_for @changeset, quote_path(@conn, :request), fn f -> %>
             <div id="be-quoted-personal">
-              <div class="be-quoted-field">
+              <div class="be-quoted-field" id="first-be-quoted-field">
                 <label>Nombre</label>
                 <%= text_input f, :name, autofocus: true, required: true %>
               </div>

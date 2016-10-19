@@ -32,6 +32,14 @@
     width:80vw;
   }
 
+  .be-quoted-field {
+    margin-top:-0.7vh;
+  }
+
+  #first-be-quoted-field {
+    margin-top:1.2vh;
+  }
+
   #be-quoted-submit {
     margin:0 42vw;
     padding:1vh 3vw;
