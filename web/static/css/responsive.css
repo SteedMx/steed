@@ -1,0 +1,66 @@
+/*
+* iPhone 6
+*/
+@media only screen
+    and (min-device-width : 375px)
+    and (max-device-width : 667px) {
+
+  /*
+  * QUOTE REQUEST
+  */
+
+  #be-quoted-description {
+    height:10vh;
+    width:100vw;
+    color:red;
+  }
+
+  #be-quoted-service, #be-quoted-service-description {
+    color:transparent;
+  }
+
+  .be-quoted-field > input {
+    width:50vw;
+    margin-left:7vw;
+  }
+
+  .be-quoted-field > textarea {
+    width:80vw;
+  }
+
+  #be-quoted-submit {
+    margin:0 42vw;
+  }
+
+  #email {
+    margin-right:9vw;
+  }
+
+  #menu-trigger {
+    top:3vh;
+  }
+
+  .be-quoted-close {
+    background-image: url(/images/be-quoted-icon-close-white.png);
+    margin-top:-10vh;
+  }
+
+  .be-quoted-field > select {
+    width:35vw;
+  }
+
+  .be-quoted-visible {
+    -webkit-flex-direction:column;
+    flex-direction:column;
+  }
+
+  #be-quoted-section > form {
+    font-size:0.8em;
+  }
+
+  #be-quoted-steed {
+    font-size:3em;
+    text-align:center;
+    margin-top:1vh;
+  }
+}
