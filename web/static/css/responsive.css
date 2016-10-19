@@ -20,8 +20,12 @@
   }
 
   .be-quoted-field > input {
-    width:53vw;
+    width:70vw;
     margin-left:7vw;
+    display:flex;
+    display:-webkit-flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
   }
 
   .be-quoted-field > textarea {
