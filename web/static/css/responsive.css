@@ -57,7 +57,9 @@
 
   .be-quoted-close {
     background-image: url(/images/menu-icon-close.png);
-    margin-top:-10vh;
+    margin-top:-6vh;
+    zoom: 50%;
+}
   }
 
   .be-quoted-field > select {
