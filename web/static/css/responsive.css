@@ -26,10 +26,12 @@
     display:-webkit-flex;
     -webkit-flex-direction:row;
     flex-direction:row;
+    text-align:center;
   }
 
   .be-quoted-field > textarea {
     width:80vw;
+    text-align:center;
   }
 
   .be-quoted-field {
