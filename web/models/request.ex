@@ -19,7 +19,7 @@ defmodule Cheval.Request do
   def changeset, do: changeset(%Request{})
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:name, :company, :email, :phone, :deadline, :service, :details, :budget])
-    |> validate_required([:name, :company, :email, :phone, :deadline, :service, :details, :budget])
+    |> cast(params, [:name, :email, :phone, :deadline, :service, :details, :budget])
+    |> validate_required([:name, :email, :phone, :deadline, :service, :details, :budget])
   end
 end

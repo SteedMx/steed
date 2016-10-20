@@ -3,7 +3,7 @@
 */
 @media only screen
     and (min-device-width : 300px)
-    and (max-device-width : 667px) {
+    and (max-device-width : 1024px) {
 
   /*
   * QUOTE REQUEST
@@ -43,7 +43,7 @@
   }
 
   #be-quoted-submit {
-    margin:0 42vw;
+    margin:0 36vw;
     padding:1vh 3vw;
   }
 
@@ -61,7 +61,11 @@
   }
 
   .be-quoted-field > select {
-    width:35vw;
+    width:25vw;
+  }
+
+  .be-quoted-date-field > select {
+    width:25vw;
   }
 
   .be-quoted-visible {
@@ -70,7 +74,7 @@
   }
 
   #be-quoted-section > form {
-    font-size:0.6em;
+    font-size:1em;
     margin-left:2vw;
   }
 
@@ -129,6 +133,7 @@
 
   #solutions-iphone {
     height:35vh;
+    bottom:22em;
   }
 
   /*

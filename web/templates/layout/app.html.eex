@@ -35,20 +35,13 @@
           <%= form_for @changeset, quote_path(@conn, :request), fn f -> %>
             <div id="be-quoted-personal">
               <div class="be-quoted-field" id="first-be-quoted-field">
-                <label>Nombre</label>
-                <%= text_input f, :name, autofocus: true, required: true %>
+                <%= text_input f, :name, autofocus: true, required: true, placeholder: "Nombre" %>
               </div>
               <div class="be-quoted-field">
-                <label>Empresa</label>
-                <%= text_input f, :company, required: true %>
+                <%= email_input f, :email, required: true, placeholder: "Email" %>
               </div>
               <div class="be-quoted-field">
-                <label id="email">Email</label>
-                <%= email_input f, :email, required: true %>
-              </div>
-              <div class="be-quoted-field">
-                <label>Teléfono</label>
-                <%= telephone_input f, :phone, required: true %>
+                <%= telephone_input f, :phone, required: true, placeholder: "Teléfono" %>
               </div>
             </div>
             <div id="be-quoted-details">
@@ -61,7 +54,7 @@
                 <%= select f, :budget, budgets, required: true %>
               </div>
               <div class="be-quoted-date-field">
-                <label>¿Cuándo lo necesitas?</label>
+                <label>¿Cuándo lo necesitas?</label><br>
                 <%= date_select f, :deadline, year: [options: 2016..2017], required: true %>
               </div>
               <div class="be-quoted-field">
