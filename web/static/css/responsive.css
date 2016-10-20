@@ -3,7 +3,7 @@
 */
 @media only screen
     and (min-device-width : 300px)
-    and (max-device-width : 1024px) {
+    and (max-device-width : 799px) {
 
   /*
   * QUOTE REQUEST
@@ -59,7 +59,6 @@
     background-image: url(/images/menu-icon-close.png);
     margin-top:-6vh;
     zoom: 50%;
-}
   }
 
   .be-quoted-field > select {
