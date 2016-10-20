@@ -56,7 +56,7 @@
   }
 
   .be-quoted-close {
-    background-image: url(/images/be-quoted-icon-close-white.png);
+    background-image: url(/images/menu-icon-close.png);
     margin-top:-10vh;
   }
 
@@ -78,5 +78,17 @@
     font-size:3em;
     text-align:center;
     margin-top:1vh;
+  }
+
+  /*
+  * SPLASH
+  */
+
+  #welcome {
+    font-size:0.8em;
+  }
+
+  #steed {
+    font-size:4em;
   }
 }
