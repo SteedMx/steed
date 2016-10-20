@@ -46,30 +46,30 @@ section {
 #be-quoted-description {
   background-color:rgb(230,48,46);
   width:50vw;
-  height:70vh;
+  height:60vh;
 }
 
 #be-quoted-steed {
   font-family:"Avenir CDN", sans-serif;
-  font-size:8em;
+  font-size:7em;
   text-transform:lowercase;
   color:white;
-  margin:0 10vw;
+  margin:4vh 4vw;
   padding:0
 }
 
 #be-quoted-service {
   font-family:"Avenir CDN", sans-serif;
-  font-size:3em;
+  font-size:2em;
   text-transform:lowercase;
   color:white;
-  margin:0 5vw;
+  margin:-2vh 5vw;
   padding:0
 }
 
 #be-quoted-service-description {
   font-family:"Avenir CDN", sans-serif;
-  font-size:1.2em;
+  font-size:1em;
   text-align:justify;
   color:white;
   margin:6vh 5vw;
