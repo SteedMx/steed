@@ -91,4 +91,46 @@
   #steed {
     font-size:4em;
   }
+
+  /*
+  * CONSULTANCY
+  */
+
+  #consultancy {
+    font-size:4em;
+    top:4em;
+  }
+
+  #consultancy-video {
+    height:250vh;
+    zoom:350%;
+  }
+
+  /*
+  * SOLUTIONS
+  */
+
+  #solutions {
+    font-size:1.2em;
+    top:22em;
+  }
+
+  #solutions-feature {
+    font-size:4em;
+    top:2em;
+  }
+
+  /*
+  * EVENTS
+  */
+
+  #events {
+    font-size:1.2em;
+    top:22em;
+  }
+
+  #events-feature {
+    font-size:4em;
+    top:2em;
+  }
 }
