@@ -5,6 +5,7 @@
     alcanzarás tus metas de crecimiento.</p>
   </div>
 </section>
+<!-- HIDE
 <section id="consultancy-section" class="parallax" data-section-name="consultoria">
   <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/open-plan-working.jpg">
     <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
@@ -28,3 +29,4 @@
     <h3 id="events-feature" class="animated fadeInLeft text-parallax-3">Nuevo Ingenio Mexicano</h3>
   </a>
 </section>
+-->

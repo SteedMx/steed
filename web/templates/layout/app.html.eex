@@ -72,7 +72,7 @@
             <%= submit "Enviar", id: "be-quoted-submit" %>
           <% end %>
         </section>
-        <!-- MENU -->
+        <!-- MENU
         <section id="menu" class="menu-hidden">
           <a href="/">
             <h2 class="menu-item" id="first-menu-item">steed.</h2>
@@ -101,10 +101,11 @@
           </div>
         </section>
         <button id="menu-trigger" class="animated pulse menu-open"></button>
+        -->
         <button id="be-quoted" class="animated pulse be-quoted-open">Cotiza</button>
         <%= render @view_module, @view_template, assigns %>
       </main>
-
+      <!-- HIDE
       <footer>
         <div class="footer-section">
           <summary>Contáctanos</summary>
@@ -125,6 +126,7 @@
           <img class="footer-icon" src="/images/footer-insta.png"/>
         <div>
       </footer>
+    -->
 
     </div> <!-- /container -->
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"
