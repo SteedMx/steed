@@ -5,28 +5,20 @@
     alcanzarás tus metas de crecimiento.</p>
   </div>
 </section>
-<!-- HIDE
 <section id="consultancy-section" class="parallax" data-section-name="consultoria">
   <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/open-plan-working.jpg">
     <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
   </video>
   <div id="consultancy-video-color"></div>
-  <a href="/consultoria">
-    <h2 id="consultancy" class="animated fadeInLeft text-parallax-1">Consultoría</h2>
-  </a>
+  <h2 id="consultancy" class="animated fadeInLeft text-parallax-1">Consultoría</h2>
 </section>
 <section id="solutions-section" class="parallax" data-section-name="soluciones">
   <div id="solutions-iphone" class="animated fadeInRight"></div>
-  <a href="/soluciones">
-    <h2 id="solutions" class="animated pulse text-parallax-2">Soluciones</h2>
-    <h3 id="solutions-feature" class="animated fadeInLeft text-parallax-2">Shared-economy Engine</h3>
-  </a>
+  <h2 id="solutions" class="animated pulse text-parallax-2">Soluciones</h2>
+  <h3 id="solutions-feature" class="animated fadeInLeft text-parallax-2">Shared-economy Engine</h3>
 </section>
 <section id="events-section" class="parallax" data-section-name="eventos">
   <div id="events-triangles" class="animated fadeInRight"></div>
-  <a href="/eventos">
-    <h2 id="events" class="animated pulse text-parallax-3">Eventos</h2>
-    <h3 id="events-feature" class="animated fadeInLeft text-parallax-3">Nuevo Ingenio Mexicano</h3>
-  </a>
+  <h2 id="events" class="animated pulse text-parallax-3">Eventos</h2>
+  <h3 id="events-feature" class="animated fadeInLeft text-parallax-3">Nuevo Ingenio Mexicano</h3>
 </section>
--->
