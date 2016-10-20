@@ -404,10 +404,11 @@ section {
   font-weight:100;
 }
 
+/*
 #consultancy:hover {
   color:#ff7878;
 }
-
+*/
 /*
 * SOLUTIONS
 */
@@ -475,18 +476,18 @@ section {
   font-weight:100;
   max-width:8em;
 }
-
+/*
 #solutions-feature:hover {
   color:#ff7878;
 }
-
+*/
 /*
 * EVENTS
 */
 
 #events-section {
   background-color:#c4c4c4;
-  background-image:url("/images/events-cover.jpg");
+  background-image:url("/images/events-cover-mobile.png");
   background-repeat:no-repeat;
   background-size:cover;
 
@@ -540,9 +541,11 @@ section {
   max-width:8em;
 }
 
+/*
 #events-feature:hover {
   color:#ff7878;
 }
+*/
 
 /*
 * FOOTER

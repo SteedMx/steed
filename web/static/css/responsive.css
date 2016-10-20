@@ -106,6 +106,13 @@
     zoom:350%;
   }
 
+  #consultancy-video-color {
+    background-image:url('/images/consultancy-cover-mobile.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position-x:-30vw;
+  }
+
   /*
   * SOLUTIONS
   */
@@ -120,9 +127,20 @@
     top:2em;
   }
 
+  #solutions-iphone {
+    height:35vh;
+  }
+
   /*
   * EVENTS
   */
+
+  #events-section {
+    background-image:url('/images/events-cover-mobile.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position-x:-30vw;
+  }
 
   #events {
     font-size:1.2em;
