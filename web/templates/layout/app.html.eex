@@ -122,6 +122,12 @@
     -->
 
     </div> <!-- /container -->
+    <script>
+	(function(h,e,a,t,m,p) {
+	m=e.createElement(a);m.async=!0;m.src=t;
+	p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+	})(window,document,'script','https://u.heatmap.it/log.js');
+    </script>
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous">
