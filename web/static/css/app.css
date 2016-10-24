@@ -29,6 +29,27 @@ section {
 }
 
 /*
+* FLOATING INFO
+*/
+
+#floating-info {
+  background-color:white;
+  position:absolute;
+  top:78vh;
+  left:85vw;
+  width:15vw;
+  font-family:"Avenir CDN",sans-serif;
+  padding:0.4em 1em;
+  font-size:1.4em;
+  box-shadow:0 1px 7px #3c1010;
+}
+
+.num-divisor {
+  color:red;
+  margin:0 0.2em;
+}
+
+/*
 * BE QUOTED
 */
 #be-quoted-section {

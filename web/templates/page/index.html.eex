@@ -1,3 +1,8 @@
+<div id="floating-info">
+  <p>
+    info@steed.mx <br> 55<span class="num-divisor">-</span>2259<span class="num-divisor">-</span>6898
+  </p>
+</div>
 <section id="splash-section" class="parallax" data-section-name="splash">
   <div id="splash">
     <h1 id="steed" class="animated fadeInLeft">steed.</h1>
