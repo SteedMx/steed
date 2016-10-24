@@ -1,0 +1,4 @@
+<%= for request <- @requests do %>
+  <%= request.name %><br>
+  <%= request.details %>
+<% end %>

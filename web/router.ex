@@ -22,6 +22,12 @@ defmodule Cheval.Router do
     post "/quote", QuoteController, :request
   end
 
+  scope "/admin", Cheval do
+    pipe_through :browser
+
+    get "/messages", QuoteController, :index
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", Cheval do
   #   pipe_through :api
