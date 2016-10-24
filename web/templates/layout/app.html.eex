@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
+    <meta name='keywords' content='apps, aplicaciones, websites, paginas web, desarrollo web, desarrollo de software, consultoria de software, desarrolladores en Mexico, e-commerce, fintech, big data Mexico, fintech Mexico'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Somos una consultora de innovación especializada en desarrollo de apps y sitios web con sede en la Ciudad de México y Londres.">
     <meta name="author" content="">
-
+    <meta name="google-site-verification" content="H7HZth4aniEDOCosiXmQHfkHZFYTDajZp5PAaS3TkNU" />
     <title>steed.</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet">
@@ -123,10 +124,19 @@
 
     </div> <!-- /container -->
     <script>
-      (function(h,e,a,t,m,p) {
-      m=e.createElement(a);m.async=!0;m.src=t;
-      p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
-      })(window,document,'script','https://u.heatmap.it/log.js');
+    	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    	ga('create', 'UA-86121751-1', 'auto');
+    	ga('send', 'pageview');
+    </script>
+    <script>
+    	(function(h,e,a,t,m,p) {
+    	m=e.createElement(a);m.async=!0;m.src=t;
+    	p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+    	})(window,document,'script','https://u.heatmap.it/log.js');
     </script>
     <script src="http://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
