@@ -36,8 +36,7 @@ section {
   background-color:white;
   position:absolute;
   top:78vh;
-  left:85vw;
-  width:15vw;
+  left:0;
   font-family:"Avenir CDN",sans-serif;
   padding:0.4em 1em;
   font-size:1.4em;
