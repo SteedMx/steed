@@ -1,29 +1,20 @@
-<div id="floating-info">
-  <p>
-    info@steed.mx <br> 55<span class="num-divisor">-</span>2259<span class="num-divisor">-</span>6898
-  </p>
+<div class="site-body">
+            <section id="section1">
+                <div class="section-text1">
+                    Section 1
+                    <p>Corrupti molestiae ratione totam voluptate ducimus ab qui fugit perferendis quos! Rem ipsa nostrum minus reiciendis debitis inventore nihil quod assumenda magni deserunt ratione quibusdam eius minima sequi doloribus nobis</p>
+                </div>
+            </section>
+            <section id="section2">
+                <div class="section-text2">
+                    Section 2
+                    <p>Nihil enim reiciendis dolores quos hic consequuntur voluptate a tempore eveniet possimus non mollitia temporibus ipsam! Culpa perspiciatis nisi itaque officiis eligendi expedita minima repellendus nostrum fugit ab qui recusandae.</p>
+                </div>
+            </section>
+            <section id="section3">
+                <div class="section-text3">
+                    Section 3
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi natus harum nostrum fuga ab officia pariatur quaerat minima quasi. Praesentium ex sunt error. Inventore voluptatum praesentium eius neque modi.</p>
+                </div>
+            </section>
 </div>
-<section id="splash-section" class="parallax" data-section-name="splash">
-  <div id="splash">
-    <h1 id="steed" class="animated fadeInLeft">steed.</h1>
-    <p id="welcome">Bienvenido al futuro. Con nuestro servicio de consultoría
-    alcanzarás tus metas de crecimiento.</p>
-  </div>
-</section>
-<section id="consultancy-section" class="parallax" data-section-name="consultoria">
-  <video id="consultancy-video" autoplay loop muted poster="https://html5backgroundvideos.com/wp-content/uploads/2015/09/open-plan-working.jpg">
-    <source src="https://d3k5xyayaartr5.cloudfront.net/open-plan-working/open-plan-working.webm">
-  </video>
-  <div id="consultancy-video-color"></div>
-  <h2 id="consultancy" class="animated fadeInLeft text-parallax-1">Consultoría</h2>
-</section>
-<section id="solutions-section" class="parallax" data-section-name="soluciones">
-  <div id="solutions-iphone" class="animated fadeInRight"></div>
-  <h2 id="solutions" class="animated pulse text-parallax-2">Soluciones</h2>
-  <h3 id="solutions-feature" class="animated fadeInLeft text-parallax-2">Shared-economy Engine</h3>
-</section>
-<section id="events-section" class="parallax" data-section-name="eventos">
-  <div id="events-triangles" class="animated fadeInRight"></div>
-  <h2 id="events" class="animated pulse text-parallax-3">Eventos</h2>
-  <h3 id="events-feature" class="animated fadeInLeft text-parallax-3">Nuevo Ingenio Mexicano</h3>
-</section>

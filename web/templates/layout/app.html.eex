@@ -1,157 +1,137 @@
-<!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="utf-8">
-    <meta name='keywords' content='apps, aplicaciones, websites, paginas web, desarrollo web, desarrollo de software, consultoria de software, desarrolladores en Mexico, e-commerce, fintech, big data Mexico, fintech Mexico'>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Somos una consultora de innovación especializada en desarrollo de apps y sitios web con sede en la Ciudad de México y Londres.">
-    <meta name="author" content="">
-    <meta name="google-site-verification" content="H7HZth4aniEDOCosiXmQHfkHZFYTDajZp5PAaS3TkNU" />
-    <title>steed.</title>
-    <link rel="icon" href="/images/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet">
-    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-  </head>
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
 
-  <body>
-    <div class="container">
-      <main role="main">
-        <!-- QUOTE REQUEST -->
-        <section id="be-quoted-section" class="be-quoted-hidden">
-          <div id="be-quoted-description">
-            <p id="be-quoted-steed">Steed.</p>
-            <p id="be-quoted-service">Servicio de consultoría</p>
-            <p id="be-quoted-service-description">
-              Siempre partimos de un proceso de investigación previa para entender la
-              naturaleza del reto. Ya sea mejorar un proceso empresarial, analizar
-              una oportunidad en el mercado o desarrollar un proyecto de software,
-              buscamos entender el panorama desde el punto de vista empático
-              (utilizando técnicas de Design Thinking por ejemplo) y el analítico
-              (a través de nuestras herramientas de procesamiento de datos).
-              De esta manera podemos prever el efecto que tendrá un desarrollo en términos
-              financieros y de experiencia de usuario.
-            </p>
-          </div>
-          <%= form_for @changeset, quote_path(@conn, :request), fn f -> %>
-            <div id="be-quoted-personal">
-              <div class="be-quoted-field" id="first-be-quoted-field">
-                <%= text_input f, :name, autofocus: true, required: true, placeholder: "Nombre" %>
-              </div>
-              <div class="be-quoted-field">
-                <%= email_input f, :email, required: true, placeholder: "Email" %>
-              </div>
-              <div class="be-quoted-field">
-                <%= telephone_input f, :phone, required: true, placeholder: "Teléfono" %>
-              </div>
-            </div>
-            <div id="be-quoted-details">
-              <div class="be-quoted-field">
-                <label>¿Qué servicio necesitas?</label>
-                <%= select f, :service, services, required: true %>
-              </div>
-              <div class="be-quoted-field">
-                <label>¿Cuál es tu presupuesto?</label>
-                <%= select f, :budget, budgets, required: true %>
-              </div>
-              <div class="be-quoted-date-field">
-                <label>¿Cuándo lo necesitas?</label><br>
-                <%= date_select f, :deadline, year: [options: 2016..2017], required: true %>
-              </div>
-              <div class="be-quoted-field">
-                <label>Cuéntanos de tu proyecto</label>
-                <%= textarea f, :details, required: true %>
-              </div>
-            </div>
-            <%= submit "Enviar", id: "be-quoted-submit" %>
-          <% end %>
-        </section>
-        <!-- MENU
-        <section id="menu" class="menu-hidden">
-          <a href="/">
-            <h2 class="menu-item" id="first-menu-item">steed.</h2>
-          </a>
-          <a href="/consultoria#lo-que-hacemos">
-            <h2 class="menu-item">Consultoría</h2>
-          </a>
-          <h2 class="menu-item" id="solutions-menu">Soluciones</h2>
-          <a href="/soluciones#shared-economy-engine">
-            <h3 class="menu-sub-item menu-hidden">Shared-economy engine</h3>
-          </a>
-          <br class="menu-sub-item menu-hidden">
-          <a href="/soluciones#fondapp">
-            <h3 class="menu-sub-item menu-hidden">Social media dashboard (próximamente)</h3>
-          <a href="/eventos#nim">
-            <h2 class="menu-item">Eventos</h2>
-          </a>
-          <a href="mailto:info@steed.mx">
-            <h2 class="menu-item" id="menu-contact">Contacto</h2>
-          </a>
-          <div id="menu-info">
-            <p>Tabasco 242,</p>
-            <p>Roma Norte</p>
-            <p>55 2259 6898</p>
-            <p>info@steed.mx</p>
-          </div>
-        </section>
-        <button id="menu-trigger" class="animated pulse menu-open"></button>
-        -->
-        <button id="be-quoted" class="animated pulse be-quoted-open">Cotiza</button>
-        <%= render @view_module, @view_template, assigns %>
-      </main>
-      <!-- HIDE
-      <footer>
-        <div class="footer-section">
-          <summary>Contáctanos</summary>
-          <p class="footer-info">info@steed.mx</p>
-        </div>
-        <div class="footer-section">
-          <summary>Visítanos</summary>
-          <p class="footer-info">Tabasco 242,</p>
-          <p class="footer-info">Roma Norte</p>
-          <p class="footer-info">55 2259 6898</p>
-        </div>
-        <div class="footer-section-icons">
-          <a href="https://www.facebook.com/SteedMx/">
-            <img class="footer-icon" src="/images/footer-fb.png"/>
-          </a>
-          <img class="footer-icon" src="/images/footer-skype.png"/>
-          <img class="footer-icon" src="/images/footer-twitter.png"/>
-          <img class="footer-icon" src="/images/footer-insta.png"/>
-        <div>
-      </footer>
-    -->
 
-    </div> <!-- /container -->
-    <script>
-    	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-   	 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.js"></script>
 
-    	ga('create', 'UA-86121751-1', 'auto');
-    	ga('send', 'pageview');
-    </script>
-    <script>
-    	(function(h,e,a,t,m,p) {
-    	m=e.createElement(a);m.async=!0;m.src=t;
-    	p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
-    	})(window,document,'script','https://u.heatmap.it/log.js');
-    </script>
-    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
-            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-            crossorigin="anonymous">
-    </script>
-    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
-            crossorigin="anonymous">
-    </script>
-    <script type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.5/jquery.scrollify.min.js">
-    </script>
-    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
-    <script src="https://use.typekit.net/leo8jsg.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  </body>
-</html>
+  
+  
+
+  
+    <!--<link rel="stylesheet" type="text/css" href="/css/result-light.css">-->
+  
+
+  
+
+  <style type="text/css">
+    {
+    height:100%;
+}
+
+body,html, .site-body, section{
+    height:100%;
+}
+section{
+    padding:20px;
+    overflow:hidden;
+}
+
+section div{
+    font-size:120px;
+}
+
+section div p{
+font-size: 20px;
+}
+
+.site-body #section1 {
+background: url(/) no-repeat fixed;
+background-position: center center;
+    color:white;
+}
+.page-wrapper .site-body #section1 .section-text1 {
+position: fixed;
+width: 300px;
+margin: 0 auto;
+padding-top: 100px;
+background: #000000;
+}
+.site-body #section2 {
+background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/secondBG.jpg) no-repeat fixed;
+background-position: center center;
+z-index: 3000;
+}
+.page-wrapper .site-body #section2 .section-text2 {
+position: fixed;
+width: 300px;
+margin: 0 auto;
+padding-top: 100px;
+background: #000000;
+}
+.site-body #section3 {
+background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/thirdBG.jpg) no-repeat fixed;
+background-position: center center;
+}
+
+.page-wrapper .site-body #section3 .section-text3 {
+position: fixed;
+width: 300px;
+margin: 0 auto;
+padding-top: 100px;
+background: #000000;
+}
+
+  </style>
+
+  <title>Div position:fixed scrolling content mask</title>
+
+  
+    
+
+
+
+
+<script type="text/javascript">//<![CDATA[
+$(window).load(function(){
+$(window).scroll(function(){
+    $("section div").each(function(){
+    $(this).css('margin-top',$(window).scrollTop()-$(this).parent().position().top);
+        console.log();
+    });
+});
+});//]]> 
+
+</script>
+
+  
+</head>
+
+<body>
+  
+<div class="site-body">
+      <section id="splash-section" class="parallax" data-section-name="splash">
+  <div id="splash">
+    <h1 id="steed" class="animated fadeInLeft">steed.</h1>
+    <p id="welcome">Bienvenido al futuro. Con nuestro servicio de consultoría
+    alcanzarás tus metas de crecimiento.</p>
+  </div>
+</section>
+
+            <section id="section1">
+                <div class="section-text1" style="margin-top: -8px;">
+                    Section 1
+                    <p>Corrupti molestiae ratione totam voluptate ducimus ab qui fugit perferendis quos! Rem ipsa nostrum minus reiciendis debitis inventore nihil quod assumenda magni deserunt ratione quibusdam eius minima sequi doloribus nobis</p>
+                </div>
+            </section>
+            <section id="section2">
+                <div class="section-text2" style="margin-top: -511px;">
+                    Section 2
+                    <p>Nihil enim reiciendis dolores quos hic consequuntur voluptate a tempore eveniet possimus non mollitia temporibus ipsam! Culpa perspiciatis nisi itaque officiis eligendi expedita minima repellendus nostrum fugit ab qui recusandae.</p>
+                </div>
+            </section>
+            <section id="section3">
+                <div class="section-text3" style="margin-top: -1014px;">
+                    Section 3
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi natus harum nostrum fuga ab officia pariatur quaerat minima quasi. Praesentium ex sunt error. Inventore voluptatum praesentium eius neque modi.</p>
+                </div>
+            </section>
+</div>
+
+  
+
+
+
+
+</body></html>
