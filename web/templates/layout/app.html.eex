@@ -2,136 +2,156 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta name="robots" content="noindex, nofollow">
   <meta name="googlebot" content="noindex, nofollow">
-
-
   <script type="text/javascript" src="//code.jquery.com/jquery-2.1.0.js"></script>
-
-  
-  
-
-  
-    <!--<link rel="stylesheet" type="text/css" href="/css/result-light.css">-->
-  
-
-  
-
-  <style type="text/css">
-    {
-    height:100%;
-}
-
-body,html, .site-body, section{
-    height:100%;
-}
-section{
-    padding:20px;
-    overflow:hidden;
-}
-
-section div{
-    font-size:120px;
-}
-
-section div p{
-font-size: 20px;
-}
-
-.site-body #section1 {
-background: url(/) no-repeat fixed;
-background-position: center center;
-    color:white;
-}
-.page-wrapper .site-body #section1 .section-text1 {
-position: fixed;
-width: 300px;
-margin: 0 auto;
-padding-top: 100px;
-background: #000000;
-}
-.site-body #section2 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/secondBG.jpg) no-repeat fixed;
-background-position: center center;
-z-index: 3000;
-}
-.page-wrapper .site-body #section2 .section-text2 {
-position: fixed;
-width: 300px;
-margin: 0 auto;
-padding-top: 100px;
-background: #000000;
-}
-.site-body #section3 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/thirdBG.jpg) no-repeat fixed;
-background-position: center center;
-}
-
-.page-wrapper .site-body #section3 .section-text3 {
-position: fixed;
-width: 300px;
-margin: 0 auto;
-padding-top: 100px;
-background: #000000;
-}
-
-  </style>
-
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300" rel="stylesheet"> 
+  <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   <title>Div position:fixed scrolling content mask</title>
+  <script type="text/javascript">//<![CDATA[
+  $(window).load(function(){
+  $(window).scroll(function(){
+      $("section div").each(function(){
+        var marginTop = 
+      $(this).css('margin-top',$(window).scrollTop()-$(this).parent().position().top + 400);
+      $(".site-body section").each(function(index, element){
+        //var topPOsition =  ($(window).scrollTop()-$(this).parent().position().top + 100)/((2 - index)*2) - 100;
+        var topPOsition = -200 + $(window).scrollTop()/ (15 * (index + 1))
+        console.log(topPOsition, index)        
+        $(this).css('background-position', '0px ' + topPOsition + 'px');
+      });
+  });
+  });//]]> 
+  </script>
+  <script>
+    $('#menu-trigger').click(function() {
+  $(this).toggleClass('menu-open menu-close')
+  $('#menu').toggleClass('menu-hidden menu-visible')
+  if ($('#be-quoted').hasClass('be-quoted-close')) {
+    $('#be-quoted').toggleClass('be-quoted-open be-quoted-close')
+    $('#be-quoted-section').toggleClass('be-quoted-hidden be-quoted-visible')
+  }
+})
 
-  
-    
-
-
-
-
-<script type="text/javascript">//<![CDATA[
-$(window).load(function(){
-$(window).scroll(function(){
-    $("section div").each(function(){
-    $(this).css('margin-top',$(window).scrollTop()-$(this).parent().position().top);
-        console.log();
-    });
-});
-});//]]> 
-
-</script>
-
-  
+// Open and close Solutions submenu
+$('#solutions-menu').click(function() {
+  $('.menu-sub-item').toggleClass('menu-hidden menu-visible')
+})
+  </script>
 </head>
 
 <body>
-  
-<div class="site-body">
-      <section id="splash-section" class="parallax" data-section-name="splash">
-  <div id="splash">
-    <h1 id="steed" class="animated fadeInLeft">steed.</h1>
-    <p id="welcome">Bienvenido al futuro. Con nuestro servicio de consultoría
-    alcanzarás tus metas de crecimiento.</p>
+
+<section id="be-quoted-section" class="be-quoted-hidden">
+          <div id="be-quoted-description">
+            <p id="be-quoted-steed">Steed.</p>
+            <p id="be-quoted-service">Servicio de consultoría</p>
+            <p id="be-quoted-service-description">
+              Siempre partimos de un proceso de investigación previa para entender la
+              naturaleza del reto. Ya sea mejorar un proceso empresarial, analizar
+              una oportunidad en el mercado o desarrollar un proyecto de software,
+              buscamos entender el panorama desde el punto de vista empático
+              (utilizando técnicas de Design Thinking por ejemplo) y el analítico
+              (a través de nuestras herramientas de procesamiento de datos).
+              De esta manera podemos prever el efecto que tendrá un desarrollo en términos
+              financieros y de experiencia de usuario.
+            </p>
+          </div>
+          <%= form_for @changeset, quote_path(@conn, :request), fn f -> %>
+            <div id="be-quoted-personal">
+              <div class="be-quoted-field" id="first-be-quoted-field">
+                <%= text_input f, :name, autofocus: true, required: true, placeholder: "Nombre" %>
+              </div>
+              <div class="be-quoted-field">
+                <%= email_input f, :email, required: true, placeholder: "Email" %>
+              </div>
+              <div class="be-quoted-field">
+                <%= telephone_input f, :phone, required: true, placeholder: "Teléfono" %>
+              </div>
+            </div>
+            <div id="be-quoted-details">
+              <div class="be-quoted-field">
+                <label>¿Qué servicio necesitas?</label>
+                <%= select f, :service, services, required: true %>
+              </div>
+              <div class="be-quoted-field">
+                <label>¿Cuál es tu presupuesto?</label>
+                <%= select f, :budget, budgets, required: true %>
+              </div>
+              <div class="be-quoted-date-field">
+                <label>¿Cuándo lo necesitas?</label><br>
+                <%= date_select f, :deadline, year: [options: 2016..2017], required: true %>
+              </div>
+              <div class="be-quoted-field">
+                <label>Cuéntanos de tu proyecto</label>
+                <%= textarea f, :details, required: true %>
+              </div>
+            </div>
+            <%= submit "Enviar", id: "be-quoted-submit" %>
+          <% end %>
+        </section>
+        <button id="be-quoted" class="animated pulse be-quoted-open">Cotiza</button>
+
+<div id="floating-info">
+  <p>
+    info@steed.mx <br> 55<span class="num-divisor">-</span>2259<span class="num-divisor">-</span>6898
+  </p>
+</div>
+<div id="splash-gradient">
+  <div id="splash-section" class="parallax" data-section-name="splash">
+    <div id="splash">
+      <h1 id="steed" class="animated fadeInLeft">steed.</h1>
+      <p id="welcome">Bienvenido al futuro. Con nuestro servicio de consultoría
+      alcanzarás tus metas de crecimiento.</p>
+    </div>
   </div>
-</section>
+</div>
+
+<div class="site-body">
+  
 
             <section id="section1">
                 <div class="section-text1" style="margin-top: -8px;">
-                    Section 1
-                    <p>Corrupti molestiae ratione totam voluptate ducimus ab qui fugit perferendis quos! Rem ipsa nostrum minus reiciendis debitis inventore nihil quod assumenda magni deserunt ratione quibusdam eius minima sequi doloribus nobis</p>
+                    CONSULTURíA
                 </div>
             </section>
             <section id="section2">
                 <div class="section-text2" style="margin-top: -511px;">
-                    Section 2
-                    <p>Nihil enim reiciendis dolores quos hic consequuntur voluptate a tempore eveniet possimus non mollitia temporibus ipsam! Culpa perspiciatis nisi itaque officiis eligendi expedita minima repellendus nostrum fugit ab qui recusandae.</p>
+                    SHARED-ECONOMY ENGINE
+                    <p>soluciones</p>
                 </div>
             </section>
             <section id="section3">
                 <div class="section-text3" style="margin-top: -1014px;">
-                    Section 3
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi natus harum nostrum fuga ab officia pariatur quaerat minima quasi. Praesentium ex sunt error. Inventore voluptatum praesentium eius neque modi.</p>
+                    NUEVO INGENIO MEXICANO
+                    <p>eventos</p>
                 </div>
             </section>
 </div>
-
-  
-
-
-
-
+<!--<div id="triangles-container">
+                <div id="events-triangles" class="animated fadeInRight"></div>
+              </div>-->
+<script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-86121751-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+    <script>
+      (function(h,e,a,t,m,p) {
+      m=e.createElement(a);m.async=!0;m.src=t;
+      p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+      })(window,document,'script','https://u.heatmap.it/log.js');
+    </script>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous">
+    </script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous">
+    </script>
+     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+     <script src="https://use.typekit.net/leo8jsg.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </body></html>

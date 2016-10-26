@@ -1,10 +1,25 @@
+@font-face{
+  font-family:"Avenir CDN";
+  src:url("/fonts/AvenirLTStd-Light.otf");
+  font-weight:100;
+}
 
-    {
-    height:100%;
+{
+  height:100%;
+  font-size: 24px;
+}
+
+body {
+  margin: 0px;
+  font-size: 24px;
 }
 
 body,html, .site-body, section{
-    height:100%;
+  height:100%;
+  font-size: 30px;
+}
+div, section{
+  font-family:"Avenir CDN",sans-serif;  
 }
 section{
     padding:20px;
@@ -12,48 +27,313 @@ section{
 }
 
 section div{
-    font-size:120px;
+    font-size:80px;
+    font-family:"Avenir CDN", sans-serif;
+    //-webkit-transition: margin 0.001s; /* Safari 3.1 to 6.0 */
+    //transition: margin 0.001s;
 }
 
 section div p{
-font-size: 20px;
+font-size: 1.5rem;
+color:red;
 }
 
+
 .site-body #section1 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/firstBG.jpg) no-repeat fixed;
+background: url("/images/our-process-video-cover.png") no-repeat fixed;
+background-attachment: fixed;
+background-size: 150% 150%;
 background-position: center center;
-    color:white;
+color:white;
+//-webkit-animation: loader 5s steps(100) infinite;
 }
-.site-body #section1 .section-text1 {
+.page-wrapper .site-body #section1 .section-text1 {
 position: fixed;
 width: 300px;
 margin: 0 auto;
-padding-top: 100px;
+padding-top: 200px;
 background: #000000;
 }
 .site-body #section2 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/secondBG.jpg) no-repeat fixed;
+background: url("/images/solutions-asset.png") no-repeat fixed;
 background-position: center center;
+background-attachment: fixed;
+background-size: 150% 150%;
 z-index: 3000;
 }
-.site-body #section2 .section-text2 {
+.page-wrapper .site-body #section2 .section-text2 {
 position: fixed;
 width: 300px;
 margin: 0 auto;
-padding-top: 100px;
+padding-top: 200px;
 background: #000000;
 }
 .site-body #section3 {
-background: url(http://ianlunn.co.uk/plugins/jquery-parallax/images/thirdBG.jpg) no-repeat fixed;
+background: url("/images/events-cover-mobile.png") no-repeat fixed;
 background-position: center center;
+background-attachment: fixed;
+background-size: 150% 150%;
+font-size:80px;
+font-family:"Avenir CDN", sans-serif;
+color: white;
 }
 
-.site-body #section3 .section-text3 {
+.page-wrapper .site-body #section3 .section-text3 {
 position: fixed;
 width: 300px;
 margin: 0 auto;
-padding-top: 100px;
+padding-top: 200px;
 background: #000000;
 }
 
-  
+/*Floating Info*/
+#floating-info {
+  background-color:white;
+  position:fixed;
+  top:78vh;
+  left:0;
+  font-family:"Avenir CDN",sans-serif;
+  padding:0.4em 1em;
+  font-size:0.8em;
+  box-shadow:0 1px 7px #3c1010;
+}
+
+/*Steed Splash*/
+#splash-gradient {
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
+}
+#splash-section {
+  font-size: 12px;
+  padding:3% 2%;
+  height: 90%;
+}
+#splash {
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+  //margin-bottom: 90px;
+  text-align:center;
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  border:2px solid white;
+}
+
+#steed {
+  color:#fff;
+  font-family:"Avenir CDN",sans-serif;
+  font-weight:100;
+  font-size:160px;
+  margin:-0.4em 0 0 0;
+}
+
+#welcome {
+  color:#fff;
+  font-family:"Avenir CDN",sans-serif;
+  font-weight:100;
+  font-size:16px;
+  letter-spacing:0.02em;
+  margin:0;
+  max-width:30em;
+}
+
+#triangles-container {
+  position: relative;
+}
+
+#events-triangles {
+  background-image:url("/images/events-triangles.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  position:fixed;
+  z-index: 1;
+  width:80vw;
+  height:100vh;
+  bottom:0;
+  right:0;
+}
+
+
+
+/*
+* BE QUOTED
+*/
+#be-quoted-section {
+  transition:display 2s ease;
+  background-color:white;
+  background-image:url("/images/be-quoted-services.png");
+  background-repeat:no-repeat;
+  background-position:bottom;
+  background-size:contain;
+  width:100vw;
+  position:fixed;
+  z-index:665;
+}
+
+#be-quoted-description {
+  background-color:rgb(230,48,46);
+  width:50vw;
+  height:60vh;
+}
+
+#be-quoted-steed {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:7em;
+  text-transform:lowercase;
+  color:white;
+  margin:4vh 4vw;
+  padding:0
+}
+
+#be-quoted-service {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:2em;
+  text-transform:lowercase;
+  color:white;
+  margin:-2vh 5vw;
+  padding:0
+}
+
+#be-quoted-service-description {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:1em;
+  text-align:justify;
+  color:white;
+  margin:6vh 5vw;
+  padding:0
+}
+
+.be-quoted-field, .be-quoted-date-field {
+  font-family:"Avenir CDN", sans-serif;
+  font-size:1.2em;
+  color:rgb(230,48,46);
+  margin:3vh 5vw;
+  padding:0
+}
+
+.be-quoted-field > label {
+  margin-right:3vw;
+  text-align:center;
+  width:75vw;
+}
+
+.be-quoted-date-field > label {
+  margin-right:3vw;
+  text-align:center;
+  width:25vw;
+}
+
+.be-quoted-field > input, textarea {
+  border-style:solid;
+  border-color:rgb(230,48,46);
+  border-radius:0.2vw;
+  border-width:0.05em;
+  width:20vw;
+  color:rgb(230,48,46);
+  letter-spacing:0.1em;
+  font-size:0.8em;
+  padding:0.5em;
+  text-align:right;
+}
+
+.be-quoted-field > textarea {
+  margin-top:1.5vh;
+  width:35vw;
+}
+
+.be-quoted-field > select {
+  background: transparent;
+  width:20vw;
+  color:rgb(230,48,46);
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Red_Arrow_Down.svg) 96% / 7% no-repeat #eee;
+}
+
+.be-quoted-date-field > select {
+  background: transparent;
+  color:rgb(230,48,46);
+  width:7vw;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/0/04/Red_Arrow_Down.svg) 92% / 15% no-repeat #eee;
+}
+
+#be-quoted-submit {
+  background-color:rgb(230,48,46);
+  color:white;
+  text-transform:lowercase;
+  font-family:"Avenir CDN",sans-serif;
+  font-size:1.2em;
+  letter-spacing:0.1em;
+  border-color:white;
+  border-style:solid;
+  border-width:0.08em;
+  padding:1vh 1vw;
+  margin-left:37vw;
+
+  box-shadow:0 1px 7px #3c1010;
+}
+
+#email {
+  margin-right:5vw;
+}
+
+.be-quoted-visible {
+  display:flex;
+  display:-webkit-flex;
+  -webkit-flex-direction:row;
+  flex-direction:row;
+}
+
+.be-quoted-hidden {
+  display:none;
+}
+
+#be-quoted {
+  position:fixed;
+  z-index:666;
+  right:5vw;
+  top:8vh;
+}
+
+.be-quoted-open {
+  background-color:rgb(230,48,46);
+  color:white;
+  text-transform:lowercase;
+  font-family:"Avenir CDN",sans-serif;
+  font-size:1.6em;
+  letter-spacing:0.1em;
+  border-color:white;
+  border-style:solid;
+  border-width:0.08em;
+  padding:1.5vh 1.5vw;
+
+  box-shadow:0 1px 7px #3c1010;
+}
+
+.be-quoted-close {
+  background-image:url("/images/be-quoted-icon-close.png");
+  background-position:center;
+  background-size:contain;
+  background-repeat:no-repeat;
+  border:none;
+  background-color:transparent;
+  color:transparent;
+  height:15vh;
+  margin-top:-8vh;
+  margin-right:2vw;
+}

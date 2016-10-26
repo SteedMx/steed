@@ -9,6 +9,11 @@
   * QUOTE REQUEST
   */
 
+  body,html, .site-body, section{
+    height:100%;
+    font-size: 45px;
+  }
+
   #be-quoted-description {
     height:10vh;
     width:100vw;
@@ -75,12 +80,12 @@
   }
 
   #be-quoted-section > form {
-    font-size:1em;
+    font-size:1rem;
     margin-left:2vw;
   }
 
   #be-quoted-steed {
-    font-size:3em;
+    font-size:3rem;
     text-align:center;
     margin-top:1vh;
   }
@@ -90,11 +95,11 @@
   */
 
   #welcome {
-    font-size:0.8em;
+    font-size:0.8rem;
   }
 
   #steed {
-    font-size:4em;
+    font-size:4rem;
   }
 
   /*
@@ -102,8 +107,8 @@
   */
 
   #consultancy {
-    font-size:3.6em;
-    top:4em;
+    font-size:3.6rem;
+    top:4rem;
   }
 
   #consultancy-video {
@@ -123,18 +128,18 @@
   */
 
   #solutions {
-    font-size:1.2em;
-    top:20em;
+    font-size:1.2rem;
+    top:20rem;
   }
 
   #solutions-feature {
-    font-size:3.6em;
-    top:2em;
+    font-size:3.6rem;
+    top:2rem;
   }
 
   #solutions-iphone {
     height:35vh;
-    bottom:22em;
+    bottom:22rem;
   }
 
   /*
@@ -149,12 +154,12 @@
   }
 
   #events {
-    font-size:1.2em;
-    top:20em;
+    font-size:1.2rem;
+    top:20rem;
   }
 
   #events-feature {
-    font-size:3.6em;
-    top:2em;
+    font-size:3.6rem;
+    top:2rem;
   }
 }
