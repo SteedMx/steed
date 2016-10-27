@@ -21,6 +21,6 @@ import "phoenix_html"
 
 // import socket from "./socket"
 import menu from "./menu"
-import scroller from "./scroller"
+//import scroller from "./scroller"
 // import parallax from "./parallax"
 import requestQuote from "./requestQuote"

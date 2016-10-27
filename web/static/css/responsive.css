@@ -8,6 +8,9 @@
   /*
   * QUOTE REQUEST
   */
+  section div {
+    font-size: 5rem;
+  }
 
   body,html, .site-body, section{
     height:100%;
