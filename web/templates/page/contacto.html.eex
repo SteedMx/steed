@@ -1,0 +1,49 @@
+<section id="be-quoted-section" class="be-quoted-hidden">
+<div id="be-quoted-description">
+  <p id="be-quoted-steed">Steed.</p>
+  <p id="be-quoted-service">Servicio de consultoría</p>
+  <p id="be-quoted-service-description">
+  Siempre partimos de un proceso de investigación previa para entender la
+  naturaleza del reto. Ya sea mejorar un proceso empresarial, analizar
+  una oportunidad en el mercado o desarrollar un proyecto de software,
+  buscamos entender el panorama desde el punto de vista empático
+  (utilizando técnicas de Design Thinking por ejemplo) y el analítico
+  (a través de nuestras herramientas de procesamiento de datos).
+  De esta manera podemos prever el efecto que tendrá un desarrollo en términos
+  financieros y de experiencia de usuario.
+  </p>
+</div>
+<%= form_for @changeset, quote_path(@conn, :request), fn f -> %>
+  <div id="be-quoted-personal">
+    <div class="be-quoted-field" id="first-be-quoted-field">
+      <%= text_input f, :name, autofocus: true, required: true, placeholder: "Nombre" %>
+    </div>
+    <div class="be-quoted-field">
+      <%= email_input f, :email, required: true, placeholder: "Email" %>
+    </div>
+    <div class="be-quoted-field">
+      <%= telephone_input f, :phone, required: true, placeholder: "Teléfono" %>
+    </div>
+  </div>
+  <div id="be-quoted-details">
+    <div class="be-quoted-field">
+      <label>¿Qué servicio necesitas?</label>
+      <%= select f, :service, services, required: true %>
+    </div>
+    <div class="be-quoted-field">
+      <label>¿Cuál es tu presupuesto?</label>
+      <%= select f, :budget, budgets, required: true %>
+    </div>
+    <div class="be-quoted-date-field">
+      <label>¿Cuándo lo necesitas?</label><br>
+      <%= date_select f, :deadline, year: [options: 2016..2017], required: true %>
+    </div>
+    <div class="be-quoted-field">
+      <label>Cuéntanos de tu proyecto</label>
+      <%= textarea f, :details, required: true %>
+    </div>
+  </div>
+  <%= submit "Enviar", id: "be-quoted-submit" %>
+<% end %>
+</section>
+

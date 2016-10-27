@@ -1,20 +1,34 @@
-<div class="site-body">
-            <section id="section1">
-                <div class="section-text1">
-                    Section 1
-                    <p>Corrupti molestiae ratione totam voluptate ducimus ab qui fugit perferendis quos! Rem ipsa nostrum minus reiciendis debitis inventore nihil quod assumenda magni deserunt ratione quibusdam eius minima sequi doloribus nobis</p>
-                </div>
-            </section>
-            <section id="section2">
-                <div class="section-text2">
-                    Section 2
-                    <p>Nihil enim reiciendis dolores quos hic consequuntur voluptate a tempore eveniet possimus non mollitia temporibus ipsam! Culpa perspiciatis nisi itaque officiis eligendi expedita minima repellendus nostrum fugit ab qui recusandae.</p>
-                </div>
-            </section>
-            <section id="section3">
-                <div class="section-text3">
-                    Section 3
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae modi natus harum nostrum fuga ab officia pariatur quaerat minima quasi. Praesentium ex sunt error. Inventore voluptatum praesentium eius neque modi.</p>
-                </div>
-            </section>
+<div id="floating-info">
+<p>
+info@steed.mx <br> 55<span class="num-divisor">-</span>2259<span class="num-divisor">-</span>6898
+</p>
+</div>
+<div id="splash-gradient">
+  <div id="splash-section" class="parallax" data-section-name="splash">
+    <div id="splash">
+      <h1 id="steed" class="animated fadeInLeft">steed.</h1>
+      <p id="welcome">Bienvenido al futuro. Con nuestro servicio de consultoría
+      alcanzarás tus metas de crecimiento.</p>
+    </div>
+  </div>
+</div>
+
+<div id="parallax" class="site-body">
+  <section id="section1">
+    <div class="section-text1" style="margin-top: -8px;">
+      CONSULTURíA
+    </div>
+  </section>
+  <section id="section2">
+    <div class="section-text2" style="margin-top: -511px;">
+      SHARED-ECONOMY ENGINE
+      <p>soluciones</p>
+    </div>
+  </section>
+  <section id="section3">
+    <div class="section-text3" style="margin-top: -1014px;">
+      NUEVO INGENIO MEXICANO
+      <p>eventos</p>
+    </div>
+  </section>
 </div>
