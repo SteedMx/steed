@@ -5,8 +5,8 @@
 	</div>
 	<div class="whatWeDo-container">
 		<div class="whatWeDo-title">
-			<div class="whatWeDo-title-line"></div>
 			<p>Lo que hacemos</p>
+			<div class="whatWeDo-title-line"></div>
 		</div>
 		<div class="whatWeDo-text">
 			<p>
@@ -71,6 +71,14 @@
 		<div class="clients-title-line"></div>
 	</div>
 	<div class="consultoria-footer">
-		
+		<div class="consultoria-contacUs">
+			<p>Contáctanos info@steed.mx</p>
+		</div>
+		<div class="consultoria-contactInfo">
+			<p>Visítanos Tabasco 242, Roma Norte 55-22-59-68-98</p>
+		</div>
+		<div class="consultoria-socialMediaIcons">
+			<img src="/images/socialMediaIcons.png" alt="">
+		</div>
 	</div>
 </div>
