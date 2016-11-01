@@ -1,14 +1,15 @@
 <div id="floating-info">
-<p>
-info@steed.mx <br> 55<span class="num-divisor">-</span>2259<span class="num-divisor">-</span>6898
-</p>
+  <p>
+  Tabasco 242, Roma Norte<br>
+  info@steed.mx <br> 55<span class="num-divisor">-</span>2259<span class="num-divisor">-</span>6898
+  </p>
 </div>
 <div id="splash-gradient">
   <div id="splash-section" class="parallax" data-section-name="splash">
     <div id="splash">
       <h1 id="steed" class="animated fadeInLeft">steed.</h1>
-      <p id="welcome">Bienvenido al futuro. Con nuestro servicio de consultoría
-      alcanzarás tus metas de crecimiento.</p>
+      <p id="welcome">Expertos en volver realidad tu idea de negocio.</br>
+  Sal al mercado antes que tu competencia.</p>
     </div>
   </div>
 </div>
@@ -21,14 +22,14 @@ info@steed.mx <br> 55<span class="num-divisor">-</span>2259<span class="num-divi
   </section>
   <section id="section2">
     <div class="section-text2" style="margin-top: -511px;">
+      <p>Soluciones</p>
       SHARED-ECONOMY ENGINE
-      <p>soluciones</p>
     </div>
   </section>
   <section id="section3">
     <div class="section-text3" style="margin-top: -1014px;">
+      <p>Eventos</p>
       NUEVO INGENIO MEXICANO
-      <p>eventos</p>
     </div>
   </section>
 </div>

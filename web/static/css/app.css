@@ -21,6 +21,20 @@ body {
 }
 
 body,html, .site-body, section{
+background:
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+background-color: #300; 
+background-size: 100px 100px;
+  background-attachment: fixed;
   height:100%;
   font-size: 30px;
 }
@@ -33,21 +47,22 @@ section{
 }
 
 section div{
-    font-size:80px;
+    font-size:13vw;
     font-family:"BebasNeue", sans-serif;
     //-webkit-transition: margin 0.001s; /* Safari 3.1 to 6.0 */
     //transition: margin 0.001s;
 }
 
 section div p{
-  font-family:"BebasNeue", sans-serif;
+  font-family: "Avenir", sans-serif;
   font-size: 1.5rem;
   color:red;
+  margin: 0;
 }
 
 
 .site-body #section1 {
-background: url(/images/parallax_square.png) no-repeat fixed;
+background: url(/images/RetroSpot.jpg) no-repeat fixed;
 background-attachment: fixed;
 background-size: cover;
 background-position: center center;
@@ -76,10 +91,10 @@ padding-top: 200px;
 background: #000000;
 }
 .site-body #section3 {
-background: url(/images/events-triangles.png) no-repeat fixed, url("/images/events-cover-mobile.png") no-repeat fixed;
+background: url(/images/events-triangles.png) no-repeat fixed, url("/images/nuevo_ingenio_mexicano.png") no-repeat fixed;
 background-position: right bottom, center center;
 background-attachment: fixed, fixed;
-background-size: 60%, 150% 150%;
+background-size: 60%, cover;
 font-size:80px;
 font-family:"Avenir CDN", sans-serif;
 color: white;

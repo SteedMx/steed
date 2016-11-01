@@ -1,84 +1,116 @@
 <div id="consultoria-container">
-	<div class="consultoria-title">
-		<div></div>
-		<p>CONSULTORíA</p>
-	</div>
-	<div class="whatWeDo-container">
-		<div class="whatWeDo-title">
-			<p>Lo que hacemos</p>
-			<div class="whatWeDo-title-line"></div>
-		</div>
-		<div class="whatWeDo-text">
-			<p>
-				Nuestro servicio de consultoría en innovación se especializa en la detección de
-				áreas de mejoría en los procesos de nuestros clientes, además de desarrollar
-				nuevos productos y servicios para ayudarles a diferenciarse y crecer.
-			</p>
-			<p>
-				Nos especializamos en implementar herramientas y mecanismos usados en
-				empresas que pertenecen al Fortune 500. Nuestros procesos han sido
-				implementados exitosamente por consultores de Steed en proyectos
-				desarrollados para la SCT, DeveloPipeline, RobotiX, ComproPago, Tecnológico
-				de Monterrey, INEA entre otros. En el proceso, hemos generando un dominio
-				de experiencia en las industrias financiera, educativa y energética.
-			</p>
-		</div>
-	</div>
-	<div class="ourVision">
-		<div class="ourVision-title">
-			NUESTRA VíSION
-		</div>
-		<div class="ourVision-title-line"></div>
-		<div class="ourVision-image">
-			<img src="/images/Groupsteed.png" alt="">
-		</div>
-		<div class="ourVision-info">
-			<div class="ourVision-info-item">
-				<p class="ourVision-info-item-title">DISEÑO</p>
-				<p class="ourVision-info-item-text">
-					La empatía del creador para entender al usuario
-					y la esencia del momento. El diseño hace que
-					los productos y servicios sean por una parte
-					estéticamente atractivos y por otra que sea
-					resuelva una necesidad relevante. Permite
-					generar productos y servicios escalables a través
-					de técnicas.
-				</p>
-			</div>
-			<div class="ourVision-info-item">
-				<p class="ourVision-info-item-title">NEGOCIOS</p>
-				<p class="ourVision-info-item-text">
-					Un modelo de negocio adecuado permite que un
-					proyecto sobreviva y pueda evolucionar. Un
-					modelo de negocio que funciona prueba que
-					existe un mercado por satisfacer.
-				</p>
-			</div>
-			<div class="ourVision-info-item">
-				<p class="ourVision-info-item-title">TECNOLOGÍA</p>
-				<p class="ourVision-info-item-text">
-					La innovación no necesariamente busca lo último
-					en avances científicos; muchas veces la
-					innovación surge simplemente de mezclar
-					procesos o tecnologías ya existentes en un
-					contextodiferente.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="clients">
-		<div class="clients-title">CLIENTES</div>
-		<div class="clients-title-line"></div>
-	</div>
-	<div class="consultoria-footer">
-		<div class="consultoria-contacUs">
-			<p>Contáctanos info@steed.mx</p>
-		</div>
-		<div class="consultoria-contactInfo">
-			<p>Visítanos Tabasco 242, Roma Norte 55-22-59-68-98</p>
-		</div>
-		<div class="consultoria-socialMediaIcons">
-			<img src="/images/socialMediaIcons.png" alt="">
-		</div>
-	</div>
+  <div class="consultoria-title">
+    <p>CONSULTORíA</p>
+  </div>
+  <div class="whatWeDo-container">
+    <div class="whatWeDo-title">
+      <p>Lo que hacemos</p>
+      <div class="whatWeDo-title-line"></div>
+    </div>
+    <div class="whatWeDo-text">
+      <p>
+      Nuestro servicio de consultoría en innovación se especializa en la detección de
+      áreas de mejoría en los procesos de nuestros clientes, además de desarrollar
+      nuevos productos y servicios para ayudarles a diferenciarse y crecer.
+      </p>
+      <p>
+      Nos especializamos en implementar herramientas y mecanismos usados en
+      empresas que pertenecen al Fortune 500. Nuestros procesos han sido
+      implementados exitosamente por consultores de Steed en proyectos
+      desarrollados para la SCT, DeveloPipeline, RobotiX, ComproPago, Tecnológico
+      de Monterrey, INEA entre otros. En el proceso, hemos generando un dominio
+      de experiencia en las industrias financiera, educativa y energética.
+      </p>
+    </div>
+  </div>
+
+  <div class="mvpPiramide-container">
+    <div class="ourVision-title">
+      NUESTRA METODOLOGÍA  
+    </div>
+    <div class="mvpPiramide-title-line"></div>
+    <div class="mvpPiramide-explanation">
+      <p>Un producto viable mínimo o MVP (del inglés Minimum Viable Product)
+      es la versión de un nuevo producto que permite a un equipo recolectar,
+      con el menor esfuerzo posible, la máxima cantidad de conocimiento validado
+      sobre sus potenciales clientes.
+      </p>
+    </div>
+    <div class="mvpPiramide-images">
+      <div><img src="/images/mvp_correcto.png"></div>
+      <div><img src="/images/mvp_incorrecto.png"></div>
+    </div>
+  </div>
+
+  <div class="mvpEjemplo-container">
+    <div class="ourVision-title">
+      ¿QUÉ ES UN MVP? 
+    </div>
+    <div class="mvpEjemplo-title-line"></div>
+    <div class="mvpEjemplo-explanation">
+      <p>Un producto viable mínimo o MVP (del inglés Minimum Viable Product)
+      es la versión de un nuevo producto que permite a un equipo recolectar,
+      con el menor esfuerzo posible, la máxima cantidad de conocimiento validado
+      sobre sus potenciales clientes.
+      </p>
+      <img src="/images/mpv_web.gif" alt="">
+    </div>
+  </div>
+  <div class="ourVision">
+    <div class="ourVision-title">
+      NUESTRA VíSION
+    </div>
+    <div class="ourVision-title-line"></div>
+    <div class="ourVision-image">
+      <img src="/images/Groupsteed.png" alt="">
+    </div>
+    <div class="ourVision-info">
+      <div class="ourVision-info-item">
+        <p class="ourVision-info-item-title">DISEÑO</p>
+        <p class="ourVision-info-item-text">
+        La empatía del creador para entender al usuario
+        y la esencia del momento. El diseño hace que
+        los productos y servicios sean por una parte
+        estéticamente atractivos y por otra que sea
+        resuelva una necesidad relevante. Permite
+        generar productos y servicios escalables a través
+        de técnicas.
+        </p>
+      </div>
+      <div class="ourVision-info-item">
+        <p class="ourVision-info-item-title">NEGOCIOS</p>
+        <p class="ourVision-info-item-text">
+        Un modelo de negocio adecuado permite que un
+        proyecto sobreviva y pueda evolucionar. Un
+        modelo de negocio que funciona prueba que
+        existe un mercado por satisfacer.
+        </p>
+      </div>
+      <div class="ourVision-info-item">
+        <p class="ourVision-info-item-title">TECNOLOGÍA</p>
+        <p class="ourVision-info-item-text">
+        La innovación no necesariamente busca lo último
+        en avances científicos; muchas veces la
+        innovación surge simplemente de mezclar
+        procesos o tecnologías ya existentes en un
+        contextodiferente.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="clients">
+    <div class="clients-title">CLIENTES</div>
+    <div class="clients-title-line"></div>
+  </div>
+  <div class="consultoria-footer">
+    <div class="consultoria-contacUs">
+      <p>Contáctanos info@steed.mx</p>
+    </div>
+    <div class="consultoria-contactInfo">
+      <p>Visítanos Tabasco 242, Roma Norte 55-22-59-68-98</p>
+    </div>
+    <div class="consultoria-socialMediaIcons">
+      <img src="/images/socialMediaIcons.png" alt="">
+    </div>
+  </div>
 </div>
