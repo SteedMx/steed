@@ -37,12 +37,40 @@ $(window).load(function(){
 // Open and close menu
 $('#be-quoted').click(function() {
   $(this).toggleClass('be-quoted-open be-quoted-close')
-    $('#be-quoted-section').toggleClass('be-quoted-hidden be-quoted-visible')
+  $('#be-quoted-section').toggleClass('be-quoted-hidden be-quoted-visible')
 })
 </script>
-  </head>
-  <body>
-    <main role="main">
+	</head>
+	<body>
+		<main role="main">
+		<section id="menu" class="menu-hidden">
+		<a href="/">
+		<h2 class="menu-item" id="first-menu-item">steed.</h2>
+		</a>
+		<a href="/consultoria#lo-que-hacemos">
+		<h2 class="menu-item">Consultoría</h2>
+		</a>
+		<h2 class="menu-item" id="solutions-menu">Soluciones</h2>
+		<a href="/soluciones#shared-economy-engine">
+		<h3 class="menu-sub-item menu-hidden">Shared-economy engine</h3>
+		</a>
+		<br class="menu-sub-item menu-hidden">
+		<a href="/soluciones#fondapp">
+		<h3 class="menu-sub-item menu-hidden">Social media dashboard (próximamente)</h3>
+		<a href="/eventos#nim">
+		<h2 class="menu-item">Eventos</h2>
+		</a>
+		<a href="mailto:info@steed.mx">
+		<h2 class="menu-item" id="menu-contact">Contacto</h2>
+		</a>
+		<div id="menu-info">
+		<p>Tabasco 242,</p>
+		<p>Roma Norte</p>
+		<p>55 2259 6898</p>
+		<p>info@steed.mx</p>
+		</div>
+		</section>
+		<button id="menu-trigger" class="animated pulse menu-open"></button>
     <button id="be-quoted" class="animated pulse be-quoted-open">Cotiza</button>
     <%= render @view_module, @view_template, assigns %>
     </main>

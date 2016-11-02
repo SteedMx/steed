@@ -21,20 +21,7 @@ body {
 }
 
 body,html, .site-body, section{
-background:
-radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
-radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
-radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
-radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
-radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
-radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
-radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
-radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
-linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
-linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
-background-color: #300; 
-background-size: 100px 100px;
-  background-attachment: fixed;
+  background-color: black;
   height:100%;
   font-size: 30px;
 }
@@ -56,7 +43,7 @@ section div{
 section div p{
   font-family: "Avenir", sans-serif;
   font-size: 1.5rem;
-  color:red;
+  color: #EF3340;
   margin: 0;
 }
 
@@ -95,8 +82,8 @@ background: url(/images/events-triangles.png) no-repeat fixed, url("/images/nuev
 background-position: right bottom, center center;
 background-attachment: fixed, fixed;
 background-size: 60%, cover;
-font-size:80px;
-font-family:"Avenir CDN", sans-serif;
+font-size: 80px;
+font-family: "Avenir CDN", sans-serif;
 color: white;
 }
 
@@ -110,21 +97,21 @@ background: #000000;
 
 /*Floating Info*/
 #floating-info {
-  background-color:white;
-  position:fixed;
-  top:78vh;
-  left:0;
-  font-family:"Avenir CDN",sans-serif;
-  padding:0.4em 1em;
-  font-size:0.8em;
-  box-shadow:0 1px 7px #3c1010;
+  background-color: white;
+  position: fixed;
+  top: 78vh;
+  right: 0;
+  font-family: "Avenir CDN",sans-serif;
+  padding: 0.4em 1em;
+  font-size: 0.8em;
+  box-shadow: 0 1px 7px #3c1010;
 }
 
 /*Steed Splash*/
 #splash-gradient {
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(rgb(230,48,46), rgb(166,48,44));
+  background: -webkit-linear-gradient(#EF3340, #BE3A34);
 }
 #splash-section {
   font-size: 12px;
@@ -136,32 +123,33 @@ background: #000000;
   height: 100%;
   margin:0 auto;
   //margin-bottom: 90px;
-  text-align:center;
-  display:flex;
+  text-align: center;
+  display: flex;
   display:-webkit-flex;
   -webkit-flex-direction:column;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  border:2px solid white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  border-radius: 9px;
 }
 
 #steed {
-  color:#fff;
-  font-family:"Avenir CDN",sans-serif;
-  font-weight:100;
-  font-size:160px;
-  margin:-0.4em 0 0 0;
+  color: #fff;
+  font-family: "Avenir CDN",sans-serif;
+  font-weight: 100;
+  font-size: 160px;
+  margin: -0.4em 0 0 0;
 }
 
 #welcome {
-  color:#fff;
-  font-family:"Avenir CDN",sans-serif;
-  font-weight:100;
-  font-size:16px;
-  letter-spacing:0.02em;
-  margin:0;
-  max-width:30em;
+  color: #fff;
+  font-family: "Avenir CDN",sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  margin: 0;
+  max-width: 30em;
 }
 
 #triangles-container {
@@ -169,18 +157,16 @@ background: #000000;
 }
 
 #events-triangles {
-  background-image:url("/images/events-triangles.png");
-  background-repeat:no-repeat;
-  background-size:cover;
-  position:fixed;
+  background-image: url("/images/events-triangles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
   z-index: 1;
-  width:80vw;
-  height:100vh;
-  bottom:0;
-  right:0;
+  width: 80vw;
+  height: 100vh;
+  bottom: 0;
+  right: 0;
 }
-
-
 
 /*
 * BE QUOTED
@@ -333,7 +319,7 @@ background: #000000;
 }
 
 .be-quoted-open {
-  background-color:rgb(230,48,46);
+  background-color: #EF3340;
   color:white;
   text-transform:lowercase;
   font-family:"Avenir CDN",sans-serif;
@@ -354,8 +340,109 @@ background: #000000;
   background-repeat:no-repeat;
   border:none;
   background-color:transparent;
-  color:transparent;
-  height:15vh;
-  margin-top:-8vh;
-  margin-right:2vw;
+	color:transparent;
+	height:15vh;
+	margin-top:-8vh;
+	margin-right:2vw;
 }
+
+/*
+ * * MENU
+ * */
+	#menu {
+		transition:display 2s ease;
+		background:-webkit-linear-gradient(left, rgb(160,30,28), rgba(97,4,0, 0.9));
+		width:100vw;
+		position:fixed;
+		z-index:665;
+	}
+
+	.menu-hidden {
+		display:none;
+	}
+
+	.menu-visible {
+		display:inherit;
+	}
+
+	.menu-item {
+		transition:color 0.5s ease;
+		font-family:lato,sans-serif;
+		color:white;
+		margin:0 5vw 0 5vw;
+		text-transform:lowercase;
+		font-weight:100;
+		font-size:2.2em;
+	}
+
+	.menu-sub-item {
+		transition:color 0.5s ease;
+		font-family:Avenir,sans-serif;
+		color:white;
+		margin:0 5vw 0 5vw;
+		text-transform:lowercase;
+		font-weight:100;
+		font-size:1.6em;
+		margin-left:6vw;
+	}
+
+	.menu-item:hover {
+		color:#ff7878;
+		cursor:pointer;
+	}
+
+	.menu-sub-item:hover {
+		color:#ff7878;
+		cursor:pointer;
+	}
+
+	#first-menu-item {
+		font-weight:100;
+		padding:20vh 0 5vh 0;
+		font-family:"Avenir CDN",sans-serif;
+	}
+
+	#menu-contact {
+		margin:3vh 5vw 0 5vw;
+	}
+
+	#menu-info {
+		font-family:lato,sans-serif;
+		color:white;
+		margin:15vh 5vw 0 5vw;
+	}
+
+	#menu-info > p {
+		margin:0.5vh 0 0.5vh 0;
+	}
+
+	#menu-trigger {
+		transition:background-image 0.5s ease;
+		position:fixed;
+		z-index:666;
+		left:5vw;
+		top:8vh;
+		color: white;
+		text-transform: lowercase;
+		font-family:"Avenir CDN",sans-serif;
+		font-size: 1.2em;
+		letter-spacing: 0.1em;
+		border:none;
+
+		width:3vw;
+		height:5vh;
+		min-width:40px;
+		min-height:30px;
+	}
+
+	.menu-open {
+		background-image:url("/images/menu-icon.png");
+		background-color:transparent;
+		background-size:cover;
+	}
+
+	.menu-close {
+		background-image:url("/images/menu-icon-close.png");
+		background-color:transparent;
+		background-size:cover;
+	}
