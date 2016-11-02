@@ -160,23 +160,29 @@
   width: 100%;  
 }
 
-/*
-@media screen and (max-width: 980px) {
+@media all and (orientation: portrait) {
+  #consultoria-container .mvpPiramide-container {
+    height: 150vh;
+  }
+  #consultoria-container .mvpPiramide-container .mvpPiramide-explanation {
+    font-size: inherit;
+  }
   #consultoria-container .mvpPiramide-container .mvpPiramide-images {
+    display: -ms-flex;
     display: -webkit-flex;
     display: flex;
-    -webkit-flex-direction: row
+    -webkit-flex-direction: column; /* works with row or column */
     flex-direction: column;
     -webkit-align-items: center;
     align-items: center;
     -webkit-justify-content: center;
     justify-content: center;
   }
-  #consultoria-container .mvpPiramide-container .mvpPiramide-images img {
-    width: 100%;
+  #consultoria-container .mvpPiramide-container .mvpPiramide-images > div {
+    width: 80vw;
+    padding: 10px;
   }
 }
-*/
 
 #consultoria-container .mvpEjemplo-container {
   color: white;

@@ -43,6 +43,7 @@ $('#be-quoted').click(function() {
 	</head>
 	<body>
 		<main role="main">
+    <!--
 		<section id="menu" class="menu-hidden">
 		<a href="/">
 		<h2 class="menu-item" id="first-menu-item">steed.</h2>
@@ -71,6 +72,7 @@ $('#be-quoted').click(function() {
 		</div>
 		</section>
 		<button id="menu-trigger" class="animated pulse menu-open"></button>
+    -->
     <button id="be-quoted" class="animated pulse be-quoted-open">Cotiza</button>
     <%= render @view_module, @view_template, assigns %>
     </main>
